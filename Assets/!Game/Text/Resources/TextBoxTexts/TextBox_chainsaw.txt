@@ -1,0 +1,2 @@
+You've just acquired the <color=yellow>Chainsaw!</color>
+Now your Chandroid can cut through <color=#0094FF>brittle wooden objects</color> found throughout the world!

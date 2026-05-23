@@ -1,0 +1,18 @@
+
+- Recover Battery
+	- DnD Nerd
+		- Maidbot Factory
+			- puzzle
+		- Lower the bridge
+			- puzzle
+		- Drop into 
+	- Tech Nerd
+		- Explore the sewer
+		- Open the hatch
+			- puzzle
+		- Fight Tech Nerd
+	- Fangirl Nerd
+	- Music Nerd
+	- Sci-Fi Nerd
+	- Arachnae
+	- Science Nerd

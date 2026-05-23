@@ -1,0 +1,15 @@
+newmtl WhiteSeam
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Materials/Tiled/Toon/WhiteSeam.png
+Kd 0.9976667 0.965 1
+d 1
+
+newmtl Mat_Rivets
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/Toon/metal_plate.png
+Kd 0.9976667 0.965 1
+d 1
+
+newmtl WhiteSeamShallow
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Materials/Tiled/Toon/WhiteSeamShallow.png
+Kd 0.8964705 0.8682353 0.9
+d 1
+

@@ -1,0 +1,40 @@
+newmtl Mat_White_Seam_2
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/Toon/white_seam.png
+Kd 1.0 1.0 1.0
+d 1.0
+
+newmtl Mat_Computer_Chip_1
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/computer_chip.png
+Kd 1.0 1.0 1.0
+d 1.0
+
+newmtl Mat_White_Seam_1
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/Toon/white_seam.png
+Kd 1.0 1.0 1.0
+d 1.0
+
+newmtl Mat_Concrete_Shallow_Seam_1
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/concrete_seam.png
+Kd 1.0 1.0 1.0
+d 1.0
+
+newmtl Mat_Grassy
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/grass_cut.png
+Kd 1 1 1
+d 1
+
+newmtl Mat_Flowers_1
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Materials/Skinned/Street/flowers.png
+Kd 1.0 1.0 1.0
+d 1.0
+
+newmtl Mat_Concrete_Seam_1
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/concrete_seam.png
+Kd 1.0 1.0 1.0
+d 1.0
+
+newmtl WoodPlanks_1
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Materials/Tiled/Toon/WoodPlanks.png
+Kd 1.0 1.0 1.0
+d 1.0
+

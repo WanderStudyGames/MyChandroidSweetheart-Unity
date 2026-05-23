@@ -1,0 +1,1 @@
+Press <size=40><sprite=2 tint></size> to <color=yellow>jump</color>.

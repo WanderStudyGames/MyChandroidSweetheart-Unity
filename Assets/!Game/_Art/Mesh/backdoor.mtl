@@ -1,0 +1,18 @@
+newmtl Mat_White_Seam
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/Toon/white_seam.png
+Kd 0.9976667 0.965 1
+d 1
+
+newmtl Mat_Glass
+Kd 1.0 1.0 1.0
+d 1.0
+
+newmtl Mat_Concrete_Shallow
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/concrete.png
+Kd 1 0.9960784 0.9803922
+d 1
+
+newmtl Mat_Plastic_White_Smooth_1
+Kd 1.0 1.0 1.0
+d 1.0
+

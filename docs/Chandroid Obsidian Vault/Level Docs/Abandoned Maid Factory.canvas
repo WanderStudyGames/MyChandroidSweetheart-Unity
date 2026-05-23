@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"b8b25f3419595e34","x":1280,"y":2280,"width":400,"height":400,"type":"group","label":"Entrance"},
+		{"id":"861eb0ae363c6a42","x":2800,"y":2280,"width":400,"height":400,"type":"group","label":"Garage Door"},
+		{"id":"03988262170afb96","x":1784,"y":2280,"width":400,"height":400,"type":"group","label":"Bodies Room"},
+		{"id":"39f558a3df0eb42f","x":2260,"y":2280,"width":400,"height":400,"type":"group","label":"Maid Bot Room"},
+		{"id":"009cb78ca0d2494f","x":2800,"y":2840,"width":400,"height":400,"type":"group","label":"Circuit Breaker Room"},
+		{"id":"7618b4e92f35b250","x":2260,"y":2840,"width":400,"height":400,"type":"group","label":"Rewire Puzzles"},
+		{"id":"90127e656980e22d","x":3360,"y":1480,"width":400,"height":400,"type":"group","label":"Cosmetic"},
+		{"type":"file","file":"Ideas/Areas/Maid Factory.md","id":"0827f85f851b3f5b","x":-780,"y":-240,"width":1940,"height":2680},
+		{"type":"text","text":"","id":"95265cd343fdb8a8","x":-2120,"y":0,"width":250,"height":60}
+	],
+	"edges":[]
+}

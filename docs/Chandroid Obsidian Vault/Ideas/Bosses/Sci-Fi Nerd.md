@@ -1,0 +1,1 @@
+sci-fi nerd has a laser sword and pistol (powered by chandroid's laser), and teleporter.

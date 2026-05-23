@@ -1,0 +1,144 @@
+Wavefront OBJ material file
+# Contains 14 materials
+
+newmtl Stone
+Ns 0
+Ka 0.0972549 0.0972549 0.0972549
+Kd 0.486275 0.486275 0.486275
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Bedrock
+Ns 0
+Ka 0.067451 0.067451 0.067451
+Kd 0.337255 0.337255 0.337255
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Stationary_Water
+Ns 0
+Ka 0.0321569 0.0729412 0.199216
+Kd 0.160784 0.364706 0.996078
+Ks 0.00482353 0.0109412 0.0298824
+illum 4
+d 0.535
+Tr 0.465
+Tf 0.91398 0.804882 0.467098
+
+
+newmtl Glass
+Ns 0
+Ka 0.150588 0.192941 0.199216
+Kd 0.752941 0.964706 0.996078
+Ks 0.0225882 0.0289412 0.0298824
+illum 4
+d 0.5
+Tr 0.5
+Tf 0.623529 0.517647 0.501961
+
+
+newmtl Block_of_Iron
+Ns 0
+Ka 0.186667 0.186667 0.186667
+Kd 0.933333 0.933333 0.933333
+Ks 0.14 0.14 0.14
+illum 2
+d 1
+Tr 0
+
+
+newmtl Oak_Wall_Sign
+Ns 0
+Ka 0.129412 0.104314 0.0635294
+Kd 0.647059 0.521569 0.317647
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Mangrove_Pressure_Plate
+Ns 0
+Ka 0.128627 0.128627 0.128627
+Kd 0.643137 0.643137 0.643137
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Iron_Bars
+Ns 0
+Ka 0.127843 0.128627 0.128627
+Kd 0.639216 0.643137 0.643137
+Ks 0.0958824 0.0964706 0.0964706
+illum 2
+d 1
+Tr 0
+
+
+newmtl Quartz_Stairs
+Ns 0
+Ka 0.176471 0.172549 0.163922
+Kd 0.882353 0.862745 0.819608
+Ks 0.211765 0.207059 0.196706
+illum 2
+d 1
+Tr 0
+
+
+newmtl Purpur_Stairs
+Ns 0
+Ka 0.13098 0.0964706 0.13098
+Kd 0.654902 0.482353 0.654902
+Ks 0.127706 0.0940588 0.127706
+illum 2
+d 1
+Tr 0
+
+
+newmtl Purpur_Slab
+Ns 0
+Ka 0.13098 0.0964706 0.13098
+Kd 0.654902 0.482353 0.654902
+Ks 0.127706 0.0940588 0.127706
+illum 2
+d 1
+Tr 0
+
+
+newmtl Acacia_Button
+Ns 0
+Ka 0.134118 0.0729412 0.0407843
+Kd 0.670588 0.364706 0.203922
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Mangrove_Slab
+Ns 0
+Ka 0.0996078 0.0996078 0.102745
+Kd 0.498039 0.498039 0.513726
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Stone_Stairs
+Ns 0
+Ka 0.0972549 0.0972549 0.0972549
+Kd 0.486275 0.486275 0.486275
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+

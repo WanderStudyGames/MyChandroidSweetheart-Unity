@@ -1,0 +1,2 @@
+Vending machine takes a DNA sample to determine which soda is best suited for the customer.
+Currently only stocked with water.

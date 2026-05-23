@@ -1,0 +1,1 @@
+<sprite=9 tint>/<sprite=6 tint> <color=yellow>Interact with objects, Speak with people

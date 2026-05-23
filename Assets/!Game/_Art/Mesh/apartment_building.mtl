@@ -1,0 +1,25 @@
+newmtl Mat_White_Seam
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/Toon/white_seam.png
+Kd 0.9976667 0.965 1
+d 1
+
+newmtl Mat_Concrete_Seam
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/concrete_seam.png
+Kd 1 0.9960784 0.9803922
+d 1
+
+newmtl Mat_Concrete
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/concrete.png
+Kd 1 0.9960784 0.9803922
+d 1
+
+newmtl Mat_Rivets
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/Toon/metal_plate.png
+Kd 0.9976667 0.965 1
+d 1
+
+newmtl Bricks
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Materials/Tiled/Toon/Bricks.png
+Kd 1 1 1
+d 1
+

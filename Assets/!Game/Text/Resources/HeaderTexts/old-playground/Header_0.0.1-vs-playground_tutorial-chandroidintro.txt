@@ -1,0 +1,3 @@
+Meet your <color=#ffaaff>Chandroid</color>. 
+She's your loyal companion who will help you. 
+Press <sprite=7 tint> to command her to <color=yellow>follow</color> you.

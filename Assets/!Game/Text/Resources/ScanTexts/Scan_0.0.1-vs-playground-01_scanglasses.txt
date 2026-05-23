@@ -1,0 +1,3 @@
+Table holds several pairs of Inspector Specs.
+Device allows user to scan objects using machine learning algorithm, and cross-reference findings against WikiScrub's online database.
+Device can also wirelessly interface with most computer PCBs. These particular pairs come pre-loaded with a Chandroid command module.

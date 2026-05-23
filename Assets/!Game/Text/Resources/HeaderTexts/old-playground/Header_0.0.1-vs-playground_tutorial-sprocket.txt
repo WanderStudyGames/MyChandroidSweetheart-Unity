@@ -1,0 +1,1 @@
+Hold and release <sprite=5 tint> to propel yourself away from surfaces.

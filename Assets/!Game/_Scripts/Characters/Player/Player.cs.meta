@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 61fb684b8a1cb3c489d1d25a0442ddb3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerMove: {instanceID: 0}
+  - playerLook: {instanceID: 0}
+  - sprocket: {instanceID: 0}
+  - grapple: {instanceID: 0}
+  - sceneHandler: {fileID: 11400000, guid: dcad47f93c6b8664da977edb88c4b18e, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

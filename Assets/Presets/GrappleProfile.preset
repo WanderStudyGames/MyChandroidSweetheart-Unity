@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GrappleProfile
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 6485f628d2ac9694fb4eebf2e35effe8, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _icon
+    value: 
+    objectReference: {fileID: 2800000, guid: bd0a49516057534409cf77005526a0c5, type: 3}
+  - target: {fileID: 0}
+    propertyPath: layerMask.m_Bits
+    value: 64
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: distanceLimit
+    value: 30
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ropeThickness
+    value: 0.05
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ropeMaterial
+    value: 
+    objectReference: {fileID: 2100000, guid: beb2d09fd90414a4c985db2394ec9072, type: 2}
+  - target: {fileID: 0}
+    propertyPath: grappleLaunchSFX
+    value: 
+    objectReference: {fileID: 11400000, guid: 502eb2c06f04e404fb42f5ca1a47effb, type: 2}
+  - target: {fileID: 0}
+    propertyPath: grappleSwingSFX
+    value: 
+    objectReference: {fileID: 11400000, guid: fa7875e70020d3d45a6332396ffeea9e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: grappleRetractSFX
+    value: 
+    objectReference: {fileID: 11400000, guid: dd66acb98bf5b5348b2ed8abf12df679, type: 2}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[0].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[0].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[0].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[0].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[0].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[0].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[1].time
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[1].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[1].inSlope
+    value: 5.3886476
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[1].outSlope
+    value: 5.3886476
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[1].inWeight
+    value: 0.03676492
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_Curve.Array.data[1].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swingAudioCurve.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

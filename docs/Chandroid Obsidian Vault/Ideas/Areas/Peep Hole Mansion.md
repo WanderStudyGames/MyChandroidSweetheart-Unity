@@ -1,0 +1,2 @@
+a place where you have very limited vision in other rooms, so you have to command your companion through peep holes + other puzzles involving peep holes
+could be like a spooky mansion or some similar type location

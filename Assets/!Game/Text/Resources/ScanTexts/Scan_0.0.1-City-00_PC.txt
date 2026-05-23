@@ -1,0 +1,1 @@
+Object identified as a Personal Computer. CPU running at 40% capacity. Fan speed 850rpm. Power usage 320 watts. This computer is in good condition.

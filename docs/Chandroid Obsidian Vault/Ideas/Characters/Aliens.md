@@ -1,0 +1,1 @@
+Player finds UFOs in key locations on the map. If player sees them all, player will be able to board [[The Mothership]].

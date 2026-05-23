@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ScannerProfile
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 1c502765079394247a77176aa6d5dc6e, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _icon
+    value: 
+    objectReference: {fileID: 2800000, guid: c2a6ce7358403714c94b331b4112468a, type: 3}
+  - target: {fileID: 0}
+    propertyPath: OnEnableScanModeGE
+    value: 
+    objectReference: {fileID: 11400000, guid: 0065db53ae9dfcf4b9519c5231b381fb, type: 2}
+  - target: {fileID: 0}
+    propertyPath: OnEnableDefaultModeGE
+    value: 
+    objectReference: {fileID: 11400000, guid: 9d0a4eb0ed2759d45889468c1db0ecc2, type: 2}
+  - target: {fileID: 0}
+    propertyPath: OnScanGE
+    value: 
+    objectReference: {fileID: 11400000, guid: 8ee209910ff218a44975b66944f6c1df, type: 2}
+  - target: {fileID: 0}
+    propertyPath: scannerPPProfile
+    value: 
+    objectReference: {fileID: 11400000, guid: e7ece0c6bca80ff42a877410c2b310c3, type: 2}
+  - target: {fileID: 0}
+    propertyPath: _layerMask.m_Bits
+    value: 2769
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scanStartSFX
+    value: 
+    objectReference: {fileID: 11400000, guid: 341ecdb882b6ba949a55ddaaa04c2872, type: 2}
+  - target: {fileID: 0}
+    propertyPath: scanLeaveSFX
+    value: 
+    objectReference: {fileID: 11400000, guid: f250321530cd41a4093021af68164632, type: 2}
+  - target: {fileID: 0}
+    propertyPath: scanModeSwitchOnSFX
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scanModeSwitchOffSFX
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scanPageSkipSFX
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scanAmbienceSFX
+    value: 
+    objectReference: {fileID: 11400000, guid: aef46d5efdbd8374ab5c34a52369443c, type: 2}
+  m_ExcludedProperties: []

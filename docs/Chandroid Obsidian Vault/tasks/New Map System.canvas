@@ -1,0 +1,97 @@
+{
+  "edges": [
+  ],
+  "metadata": {
+  },
+  "nodes": [
+    {
+      "height": 580,
+      "id": "a61a47d990dde2ca",
+      "styleAttributes": {
+      },
+      "text": "# New Map Screen\n- Swap between areas\n- Center on player\n- Drag around\n- Add notes w/ on-screen keyboard\n- Tabs\n\nEach scene points to a `MapArea` ScriptableObject.\nSceneStartup sets static Map `MapArea` field\nMap screen checks which `MapArea` is loaded, opens the appropriate tab.",
+      "type": "text",
+      "width": 720,
+      "x": -360,
+      "y": -30
+    },
+    {
+      "height": 490,
+      "id": "25beb3b55ca93ab1",
+      "styleAttributes": {
+      },
+      "text": "New map system\n- shows room entrances/exits\n- area entrances/exits\n- batteries\n- characters\n- quest information\n- automated bezier path generation",
+      "type": "text",
+      "width": 720,
+      "x": -360,
+      "y": -560
+    },
+    {
+      "height": 1110,
+      "id": "7ae3afaa0e2540b4",
+      "styleAttributes": {
+      },
+      "text": "- [x] multi-functioning \"up one level\" button which disappears when on \"world map\"\n- [x] path rendering bezier curves\n- [ ] miniature landmark pixel art\n\t- [ ] gene's gadget gallery\n\t- [ ] abandoned mall\n\t- [x] skate park\n\t- [x] buildings\n\t- [ ] trees\n\t- [ ] streets\n\t- [ ] grass\n\t- [x] water\n\t- [x] construction\n\t- [ ] abandoned maidbot factory\n\t- [ ] sun statue\n\t- [x] bridge open/closed\n\t- [ ] dog house\n\t- [ ] apartment complex\n\t- [ ] apartment complex siding\n- [ ] world map art\n\t- [ ] city\n\t- [ ] highway\n\t- [ ] suburbs\n\t- [ ] rural\n\t- [ ] downtown\n\t- [ ] uptown\n\t- [ ] mountains\n\t- [ ] beach",
+      "type": "text",
+      "width": 580,
+      "x": -980,
+      "y": -560
+    },
+    {
+      "height": 490,
+      "id": "3e65f9b3d1975fd8",
+      "styleAttributes": {
+      },
+      "text": "- mark unexplored entrances\n- tabs for switching areas\n- scrolling, zooming\n- icons\n- room names",
+      "type": "text",
+      "width": 420,
+      "x": 400,
+      "y": -560
+    },
+    {
+      "height": 580,
+      "id": "10f39ce5b0412921",
+      "styleAttributes": {
+      },
+      "text": "![](https://www.youtube.com/watch?v=BFX3FpUnoio)",
+      "type": "text",
+      "width": 660,
+      "x": 400,
+      "y": -30
+    },
+    {
+      "height": 490,
+      "id": "28381c13d8403cf6",
+      "styleAttributes": {
+      },
+      "text": "in metroidvanias, the map helps you identify: \n- entrances and rooms you haven't been to\n- places which might contain secrets\n- most efficient routing\n- shops/places of interest\nAnd it does so for the whole game world.",
+      "type": "text",
+      "width": 400,
+      "x": 860,
+      "y": -560
+    },
+    {
+      "height": 360,
+      "id": "c7eac8df8d4696bc",
+      "styleAttributes": {
+      },
+      "text": "UI SFX\n- [x] zoom in/out\n- [x] pan\n- [x] bookmark\n- [x] enter area\n- [x] up one level\n- [x] open map\n- [x] close map",
+      "type": "text",
+      "width": 400,
+      "x": -1440,
+      "y": -560
+    },
+    {
+      "color": "1",
+      "height": 220,
+      "id": "5eacdb8088503503",
+      "styleAttributes": {
+      },
+      "text": "MVP:\n- [x] bookmark feature\n- [x] world city art",
+      "type": "text",
+      "width": 360,
+      "x": -1440,
+      "y": -60
+    }
+  ]
+}

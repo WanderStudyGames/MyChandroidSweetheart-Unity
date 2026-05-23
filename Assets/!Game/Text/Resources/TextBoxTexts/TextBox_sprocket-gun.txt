@@ -1,0 +1,4 @@
+You've just acquired the <color=yellow>Sprocket Gun!</color>
+The device allows its user to charge up air and blast it away, propelling debris and heavy objects.
+It also allows its user to <color=#0094FF>blast themselves away from the floor</color>, 
+but this is highly discouraged as it voids the warranty!

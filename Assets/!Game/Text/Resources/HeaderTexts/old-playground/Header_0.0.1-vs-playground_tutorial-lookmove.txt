@@ -1,0 +1,2 @@
+Hello, and welcome to the Chandroid demo. 
+To start, look around with <sprite=0 tint> and move with <sprite=1 tint>

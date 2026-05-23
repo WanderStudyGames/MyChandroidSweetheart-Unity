@@ -1,0 +1,388 @@
+{
+  "edges": [
+    {
+      "fromNode": "dedb47d6e07ac0f5",
+      "fromSide": "right",
+      "id": "cd4f079245fd91ff",
+      "styleAttributes": {
+      },
+      "toNode": "50c01d13d01dc723",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "50c01d13d01dc723",
+      "fromSide": "top",
+      "id": "4753d212cb44bc25",
+      "styleAttributes": {
+      },
+      "toNode": "6e543c191769f2d2",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "6e543c191769f2d2",
+      "fromSide": "left",
+      "id": "6a9423f35b1ba036",
+      "styleAttributes": {
+      },
+      "toNode": "6dddd2d7d8313d4d",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "6dddd2d7d8313d4d",
+      "fromSide": "bottom",
+      "id": "6debc23b0c98d24f",
+      "styleAttributes": {
+      },
+      "toNode": "dedb47d6e07ac0f5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ac272f3002fc4dc3",
+      "fromSide": "left",
+      "id": "b0e9ca244e97b7df",
+      "styleAttributes": {
+      },
+      "toNode": "b14cfa3572595a55",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "b14cfa3572595a55",
+      "fromSide": "left",
+      "id": "dc8773fe253cde0d",
+      "styleAttributes": {
+      },
+      "toNode": "9479eae89fc3af9d",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "369ba9ea4228839c",
+      "fromSide": "bottom",
+      "id": "cebdac6300b079aa",
+      "styleAttributes": {
+      },
+      "toNode": "48221ae7a56af639",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "efcee579e3b384b6",
+      "fromSide": "top",
+      "id": "59ebf7f2303cf275",
+      "styleAttributes": {
+      },
+      "toNode": "5a793b1d73513b0d",
+      "toSide": "bottom"
+    },
+    {
+      "color": "2",
+      "fromNode": "ac272f3002fc4dc3",
+      "fromSide": "bottom",
+      "id": "1c79cd16f2e3693b",
+      "label": "Breathing Device",
+      "styleAttributes": {
+      },
+      "toNode": "8d640db66d292eb3",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1200,
+      "id": "ac272f3002fc4dc3",
+      "label": "Suburbs",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2360,
+      "x": -1840,
+      "y": -460
+    },
+    {
+      "height": 520,
+      "id": "9479eae89fc3af9d",
+      "label": "Nature Walk",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 720,
+      "x": -3280,
+      "y": -240
+    },
+    {
+      "color": "1",
+      "height": 220,
+      "id": "45f15dcb996cb169",
+      "label": "Fangirl Nerd",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 400,
+      "x": -3200,
+      "y": -40
+    },
+    {
+      "color": "2",
+      "height": 60,
+      "id": "662b14316776c9bd",
+      "styleAttributes": {
+      },
+      "text": "[[Chainsaw]]",
+      "type": "text",
+      "width": 260,
+      "x": -3160,
+      "y": 40
+    },
+    {
+      "color": "2",
+      "height": 200,
+      "id": "d175a39dcf9ddb61",
+      "styleAttributes": {
+      },
+      "text": "Guaranteed access to:\n\n[[Bouncy Skirt]]\n[[Floaties]]\n[[Rewire]]",
+      "type": "text",
+      "width": 800,
+      "x": 1080,
+      "y": -920
+    },
+    {
+      "color": "5",
+      "height": 360,
+      "id": "a7bac245a23ebd79",
+      "styleAttributes": {
+      },
+      "text": "Puzzle elements:\n\n[[Power Source]]\n[[Movable Pad]]\n[[Light Bridge]]\n[[Lift]]\n[[Dog]]\n[[Frog]]\n[[Chandroid Snatcher]]\n[[Moving Sidewalk]]\n",
+      "type": "text",
+      "width": 800,
+      "x": 1080,
+      "y": -620
+    },
+    {
+      "height": 60,
+      "id": "8d640db66d292eb3",
+      "styleAttributes": {
+      },
+      "text": "To Rural",
+      "type": "text",
+      "width": 260,
+      "x": -1190,
+      "y": 1360
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "efcee579e3b384b6",
+      "styleAttributes": {
+      },
+      "text": "Chandroid Snatcher Intro",
+      "type": "text",
+      "width": 380,
+      "x": -905,
+      "y": -470
+    },
+    {
+      "height": 60,
+      "id": "6dddd2d7d8313d4d",
+      "styleAttributes": {
+      },
+      "text": "",
+      "type": "text",
+      "width": 260,
+      "x": -1680,
+      "y": 30
+    },
+    {
+      "height": 100,
+      "id": "7ef951c4a09db64a",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "More freeform, open, \"get them all\" type section, culminating in opening the [[Creepy House]]",
+      "type": "text",
+      "width": 640,
+      "x": -1550,
+      "y": -620
+    },
+    {
+      "color": "5",
+      "height": 120,
+      "id": "da9765ef57801a4b",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "each house has a small puzzle?",
+      "type": "text",
+      "width": 280,
+      "x": -1760,
+      "y": 520
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "5a793b1d73513b0d",
+      "styleAttributes": {
+      },
+      "text": "Advanced Power Source",
+      "type": "text",
+      "width": 390,
+      "x": -905,
+      "y": -780
+    },
+    {
+      "height": 120,
+      "id": "85cd0606097c2980",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "Just a bunch of optional\nlore/npc content?",
+      "type": "text",
+      "width": 280,
+      "x": -1760,
+      "y": 680
+    },
+    {
+      "height": 140,
+      "id": "9a6d0c6383aa7323",
+      "styleAttributes": {
+      },
+      "text": "Big loop with several\nnodes, with a gate at the far end",
+      "type": "text",
+      "width": 780,
+      "x": -360,
+      "y": 560
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "369ba9ea4228839c",
+      "styleAttributes": {
+      },
+      "text": "Movable Pad Intro",
+      "type": "text",
+      "width": 260,
+      "x": -1320,
+      "y": 600
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "48221ae7a56af639",
+      "styleAttributes": {
+      },
+      "text": "Movable Pad Advanced",
+      "type": "text",
+      "width": 340,
+      "x": -1360,
+      "y": 920
+    },
+    {
+      "height": 60,
+      "id": "dedb47d6e07ac0f5",
+      "styleAttributes": {
+      },
+      "text": "",
+      "type": "text",
+      "width": 260,
+      "x": -840,
+      "y": 480
+    },
+    {
+      "height": 60,
+      "id": "6e543c191769f2d2",
+      "styleAttributes": {
+      },
+      "text": "",
+      "type": "text",
+      "width": 260,
+      "x": -840,
+      "y": -320
+    },
+    {
+      "height": 60,
+      "id": "93c29f92a866eb79",
+      "styleAttributes": {
+      },
+      "text": "[[Community Center]]",
+      "type": "text",
+      "width": 260,
+      "x": -840,
+      "y": 50
+    },
+    {
+      "height": 60,
+      "id": "50c01d13d01dc723",
+      "styleAttributes": {
+      },
+      "text": "from Highway",
+      "type": "text",
+      "width": 260,
+      "x": 160,
+      "y": 20
+    },
+    {
+      "file": "Map.canvas",
+      "height": 400,
+      "id": "79644171749d5994",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 360,
+      "y": -920
+    },
+    {
+      "file": "Highway.canvas",
+      "height": 400,
+      "id": "4953c35d6e1b329b",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 640,
+      "y": -180
+    },
+    {
+      "file": "Maps/game map idea1.png",
+      "height": 2464,
+      "id": "c5a9a4dd7eedcc19",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 1760,
+      "x": 720,
+      "y": 280
+    },
+    {
+      "height": 180,
+      "id": "83eae8f3327735c3",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "Two people\nwant things from\nthe supermarket\nso supermarket has 2 puzzles",
+      "type": "text",
+      "width": 460,
+      "x": -2220,
+      "y": 900
+    },
+    {
+      "height": 160,
+      "id": "368ba22ae7d6014b",
+      "styleAttributes": {
+      },
+      "text": "[[Breathing Device]] activates and deactivates automatically based on trigger boxes",
+      "type": "text",
+      "width": 420,
+      "x": -2380,
+      "y": 640
+    },
+    {
+      "height": 120,
+      "id": "b14cfa3572595a55",
+      "styleAttributes": {
+      },
+      "text": "[[Creepy House]] (false destination)",
+      "type": "text",
+      "width": 360,
+      "x": -2380,
+      "y": 0
+    }
+  ]
+}

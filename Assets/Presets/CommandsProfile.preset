@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CommandsProfile
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 6b66cbdf2d578b646973d68034d5998c, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _icon
+    value: 
+    objectReference: {fileID: 2800000, guid: 0945615b5fd3013489e109176ac7abcf, type: 3}
+  - target: {fileID: 0}
+    propertyPath: OnCommandGE
+    value: 
+    objectReference: {fileID: 11400000, guid: 696e4d419382cee498964549512311bc, type: 2}
+  - target: {fileID: 0}
+    propertyPath: _layerMask.m_Bits
+    value: 4289
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: locationIndicatorPF
+    value: 
+    objectReference: {fileID: 7452083682595870999, guid: 12fc011053675074db687dc0bb8e24ff, type: 3}
+  - target: {fileID: 0}
+    propertyPath: followIndicatorPF
+    value: 
+    objectReference: {fileID: 1487985465412221867, guid: faad3410fd3794f4e81ac2941dfd5dcf, type: 3}
+  - target: {fileID: 0}
+    propertyPath: followSFX
+    value: 
+    objectReference: {fileID: 11400000, guid: 1a57bc0f0b7ea854289c9c624d963a7f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: locationSFX
+    value: 
+    objectReference: {fileID: 11400000, guid: 609d392edf632c649bc41e3949e8b061, type: 2}
+  m_ExcludedProperties: []

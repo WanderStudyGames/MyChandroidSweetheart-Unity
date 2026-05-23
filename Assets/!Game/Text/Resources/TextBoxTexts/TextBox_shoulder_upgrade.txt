@@ -1,0 +1,3 @@
+You've just acquired the <color=yellow>Chandroid Shoulder Upgrade!</color>
+This upgrade allows your Chandroid to lift <color=yellow>heavy objects</color>.
+Simply command her to lift certain <color=#0094FF>boulders or heavy weights</color>!

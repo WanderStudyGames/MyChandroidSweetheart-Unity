@@ -1,0 +1,1 @@
+Use <sprite=3 tint> to adjust your <color=yellow>movement speed</color>.

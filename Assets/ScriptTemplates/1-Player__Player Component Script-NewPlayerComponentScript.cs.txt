@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class #SCRIPTNAME# : PlayerComponent
+{
+    // OnStart is called before the first frame update
+    protected override void Start()
+    {
+        base.Start()
+        #NOTRIM#
+    }
+
+    // OnUpdate is called once per frame
+    protected override void OnUpdate()
+    {
+        #NOTRIM#
+    }
+    
+    // SetEnabled is a publicly accessible function which sets the inherited _enabled bool
+    protected override void SetEnabled()
+    {
+        base.SetEnabled()
+        #NOTRIM#
+    }
+}

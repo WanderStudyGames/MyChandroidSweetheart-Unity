@@ -1,0 +1,2 @@
+![](https://www.youtube.com/watch?v=7EZ2F-TzHYw)
+<iframe height=800 width=1000 src="https://gamedevbeginner.com/garbage-collection-in-unity-what-it-is-and-how-to-avoid-it/#:~:text=Typically%2C%20the%20garbage%20collector%20runs,for%20a%20new%20data%20allocation.&text=When%20it%20runs%2C%20the%20entire,anything%20else%2C%20suspending%20the%20game."></iframe>

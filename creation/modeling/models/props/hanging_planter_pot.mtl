@@ -1,0 +1,15 @@
+newmtl Mat_Rope
+map_Kd -o 0 0 -s 1 1 C:/Users/timde/!C Data/game projects/unity/My Chandroid Sweetheart/Unity-MyChandroidSweetheart/Assets/!Game/_Art/Materials/Skinned/rope.png
+Kd 1 1 1
+d 1
+
+newmtl WhiteSeam
+map_Kd -o 0 0 -s 0.25 0.25 C:/Users/timde/!C Data/game projects/unity/My Chandroid Sweetheart/Unity-MyChandroidSweetheart/Assets/!Game/_Art/Materials/Tiled/Toon/WhiteSeam.png
+Kd 0.9976667 0.965 1
+d 1
+
+newmtl DirtLarge
+map_Kd -o 0 0 -s 0.03125 0.03125 C:/Users/timde/!C Data/game projects/unity/My Chandroid Sweetheart/Unity-MyChandroidSweetheart/Assets/!Game/_Art/Materials/Tiled/Toon/dirt_g.png
+Kd 0.553 0.3768428 0.2185242
+d 1
+

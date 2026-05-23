@@ -1,0 +1,1 @@
+chandroid is scared of animals, even small puppies. used as gameplay mechanic, have to get rid of animal to proceed. even something as simple as nav mesh having big chunk cut out of it around a hamster cage

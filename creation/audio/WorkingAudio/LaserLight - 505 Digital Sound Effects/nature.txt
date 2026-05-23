@@ -1,0 +1,102 @@
+1		Many Birds Chirping – Crickets Or June Bugs – Forest Atmosphere	0:46
+2		Several Birds Chirping – Residential Atmosphere	0:46
+3		Several Birds Chirping – A Rural Or Country Atmosphere	0:46
+4		Rural Or Country Atmosphere At Night	0:46
+5		Birds Chirping And Singing – Waterfall In Background – Forest Atmosphere	0:46
+6		Many Birds Chirping And Singing – Forest Atmosphere	0:45
+7		Many Birds Chirping And Singing – Very Quiet Atmosphere	0:45
+8		Whippoorwill Singing – Crickets In Background	0:45
+9		Crow Cawing – Other Birds In Faint Distance	0:33
+10		Bird Wings Flapping	0:20
+11		Outdoor Atmosphere	0:40
+12		Cat Meowing	0:23
+13		Car Purring	0:25
+14		Kittens Meowing	0:31
+15		Dog Barking	0:14
+16		Dog Whining	0:30
+17		Puppy Whining	0:22
+18		Farm Ambiance – Roosters – Cows – Birds In Background	0:46
+19		Rooster Crowing – Country Ambiance	0:24
+20		Horse Whinny	0:04
+21		Horse Snort	0:04
+22		Horse Galloping	0:10
+23		Donkeys Braying – Farm Ambiance	0:29
+24		Sheep And Lambs Baaing – Barn Atmosphere	0:14
+25		Herd Of Sheep	0:46
+26		Goat	0:27
+27		Peacock	0:05
+28		Chicken Clucking	0:04
+29		Baby Chick Crying And Flapping About – Hens And Roosters In Background	0:46
+30		Baby Chick In Henhouse	0:15
+31		Several Ducks Quacking And Splashing	0:46
+32		Ducks And Geese Quacking And Splashing	0:11
+33		Flock Of Ducks – Wings Flapping On Water	0:43
+34		Swans Calling – Running Water In Background	0:46
+35		Owl Hooting	0:19
+36		Woodpecker Pecking A Tree – Other Birds In Distance	0:45
+37		Chipmunk – Country Atmosphere	0:46
+38		Squirrel Chatter	0:46
+39		Prairie Dog Barking – Country Atmosphere	0:19
+40		Coyote Howling	0:17
+41		Wolf Howling – Other Wolves In Distance	0:46
+42		Pack Of Wolves Howling In Distance	0:38
+43		Tree Falling In Forest	0:06
+44		South American Rain Forest – Waterfall In Background	0:46
+45		Asian Tropical Rain Forest	0:46
+46		Jungle Atmosphere – Birds Screeching – Moving Water	0:47
+47		Animal Moving Through Jungle Brush – Animal Chatter And Screeching	0:50
+48		Lion Roar	0:05
+49		Wildcat Snarling	0:43
+50		Wildcat Hiss	0:04
+51		Bear Growling	0:15
+52		Several Bears Growling	0:48
+53		Gorilla	0:43
+54		Elephant Trumpeting – Birds In Background	0:42
+55		Moose Grunting	0:23
+56		Camel Grunting – Waterfall And Birds In Background	0:19
+57		Rattle Snake Sounding Its Rattles	0:30
+58		One Cricket Chirping	0:20
+59		Many Crickets – Frogs – Sounds Around Pond	0:46
+60		Many Crickets – Traffic In Background	0:46
+61		Frogs Croaking	0:46
+62		Frogs, Birds – Other Swamp Sounds	0:46
+63		Swarm Of Locusts	0:42
+64		Mosquito	0:33
+65		Fly Buzzing	0:12
+66		Alligator Roar	0:48
+67		Fishing On A Quiet Lake	0:43
+68		Fish Splashing On Top Of Water	0:30
+69		Small Eddy	0:46
+70		Babbling Brook	0:45
+71		Mountain Spring	0:46
+72		Running Stream	0:44
+73		Small Waterfall	0:46
+74		Large Waterfall	0:46
+75		Underground Waterfall	0:46
+76		White Water Rapids	0:47
+77		Harbor Atmosphere On A Windy Day	0:22
+78		Beach Atmosphere – Children Playing – People Talking	0:40
+79		Ocean Shoreline	0:49
+80		Waves Crashing	0:51
+81		Sea Cave	0:46
+82		Water Lapping Against Shore	0:46
+83		Underwater Atmosphere	0:41
+84		Deep Underwater Atmosphere	0:24
+85		Sea Gulls – Dock Atmosphere	0:46
+86		Sea Gulls – Shoreline Atmosphere	0:40
+87		Sea Gulls – Waves Breaking	0:46
+88		Seals And Sea Lions Barking	0:46
+89		Winds Blowing Near The Ocean	0:27
+90		Gale Force Winds	0:46
+91		Strong Winds	0:46
+92		Rain	0:47
+93		Rain On A Pond	0:30
+94		Thunder And Rain	0:46
+95		Thunder	0:04
+96		Small Cracking Fire	0:42
+97		Large Raging Fire	0:37
+Raging Fire With Howling Wind / Earthquake / Volcano / Lava Bubbling	(2:58)
+98.1		Raging Fire With Howling Wind	1:12
+98.2		Earthquake	0:41
+98.3		Volcano	0:43
+98.4		Lava Bubbling	0:22

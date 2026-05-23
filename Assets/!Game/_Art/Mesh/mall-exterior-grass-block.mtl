@@ -1,0 +1,10 @@
+newmtl Mat_Grassy
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl Mat_Cobblestone
+Kd 0.85 0.85 0.8416667
+map_Kd null
+illum 2
+

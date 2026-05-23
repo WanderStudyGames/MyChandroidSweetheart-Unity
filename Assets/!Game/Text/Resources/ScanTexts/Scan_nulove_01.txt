@@ -1,0 +1,5 @@
+<color=#3FAFFF>Doctor's Note</color>
+Dial down default Chandroid libido settings before applying patch to production models.
+Also, order new test equipment.
+And a new labcoat.
+And bandages.

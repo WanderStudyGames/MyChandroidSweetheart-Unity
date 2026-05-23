@@ -1,0 +1,14 @@
+newmtl Mat_Chrome_Cartoon
+Kd 0.5807696 0.5807696 0.603
+d 1
+
+newmtl WhiteSeam
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Materials/Tiled/Toon/WhiteSeam.png
+Kd 0.9976667 0.965 1
+d 1
+
+newmtl Mat_Chrome_Cartoon_Seam
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Materials/Tiled/Toon/WhiteSeam.png
+Kd 0.5807696 0.5807696 0.603
+d 1
+

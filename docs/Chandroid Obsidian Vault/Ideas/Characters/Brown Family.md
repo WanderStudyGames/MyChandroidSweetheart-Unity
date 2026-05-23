@@ -1,0 +1,1 @@
+Friends with the [[Blonde Family]]. Each member has a friend in the other family.

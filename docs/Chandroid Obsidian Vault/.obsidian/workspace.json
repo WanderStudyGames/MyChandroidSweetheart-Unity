@@ -1,0 +1,377 @@
+{
+  "main": {
+    "id": "d7a8426086c7b5e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "316ac728f185b8d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d777611eb2218eb",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "tasks/To Do List.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    true,
+                    false,
+                    false,
+                    false,
+                    false,
+                    null,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-ghost",
+              "title": "kanban"
+            }
+          },
+          {
+            "id": "f0300ae25c3a5e89",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Scratchpad.canvas",
+                "viewState": {
+                  "x": -6729.935705657149,
+                  "y": 1254.4311266764528,
+                  "zoom": -1.3934675589088543
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "Scratchpad"
+            }
+          },
+          {
+            "id": "2f4acc330b3db342",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Map 1 Puzzles.canvas",
+                "viewState": {
+                  "x": -3811.081579656575,
+                  "y": -752.4312692224441,
+                  "zoom": -0.5647455277316608
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "Map 1 Puzzles"
+            }
+          },
+          {
+            "id": "30753bd4882f9536",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Narrative.canvas",
+                "viewState": {
+                  "x": 3061.016900635275,
+                  "y": 237.4723261934946,
+                  "zoom": -0.33333333333333326
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Narrative"
+            }
+          },
+          {
+            "id": "209ba372da0ac9ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tasks/Save point love seats.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Save point love seats"
+            }
+          },
+          {
+            "id": "b968335fcf6bda30",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Doing Stuff.canvas",
+                "viewState": {
+                  "x": 12038.463367106751,
+                  "y": 167.9191054448363,
+                  "zoom": -2.834293880196742
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Doing Stuff"
+            }
+          },
+          {
+            "id": "34dc45f577d23bae",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Doing Stuff 2.canvas",
+                "viewState": {
+                  "x": 6562.34979897808,
+                  "y": -1113.257027511847,
+                  "zoom": -0.6999999999999978
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Doing Stuff 2"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4d09379ebc7fe6fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c6e6771663664d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1420acc6f028b7dd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "afdceaed670c95cf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "arachnae",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f30b3f57a56299e9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "starred"
+            }
+          },
+          {
+            "id": "1c06dd33f654e4a7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 223.5
+  },
+  "right": {
+    "id": "35620a2ea6d81057",
+    "type": "split",
+    "children": [
+      {
+        "id": "97a5631663dab5ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c01d45394fadce5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "883f5755d5494a9a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "33eacde7e6b3525d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0bc089787c2b81a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "ee1949c912e406b3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "switcher:Open quick switcher": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "34dc45f577d23bae",
+  "lastOpenFiles": [
+    "Game Dev Studio/WanderStudy Games.md",
+    "Game Dev Studio/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+    "Doing Stuff 2.canvas",
+    "Map 1 Puzzles.canvas",
+    "tasks/To Do List.md",
+    "Scratchpad.canvas",
+    "Ideas/Decorations.md",
+    "Ideas/Liminal Spaces.md",
+    "Ideas/Bosses/Octopus.md",
+    "tasks/Save point love seats.md",
+    "tasks/Action Log.md",
+    "tasks/Puzzle Stats Console.md",
+    "tasks/Chandroid Snatcher.md",
+    "tasks/Companion Interact Menu.md",
+    "tasks/Demo Chapter Select.canvas",
+    "tasks/Chandroid Recall Device.md",
+    "tasks/New Map System.canvas",
+    "Ideas/Abilities/Player/Grapple.md",
+    "Ideas/Abilities/Player/Pry Tool.md",
+    "Ideas/Abilities/Player/Metal Boots.md",
+    "Ideas/Abilities/Player/Pasted image 20230612181823.png",
+    "Ideas/Abilities/Player/Player Concept Art.md",
+    "Ideas/Abilities/Player/Laser Pointer.md",
+    "Ideas/Abilities/Abilities List.md",
+    "Ideas/Areas/Celibate Area.md",
+    "Ideas/Areas/Peep Hole Mansion.md",
+    "Ideas/Areas/City Plaza.md",
+    "Ideas/Areas/Supermarket.md",
+    "Ideas/Areas/Abandoned Mall.md",
+    "Ideas/Areas/The Bridge.md",
+    "Ideas/Areas/Downtown.md",
+    "Ideas/Areas/The Highway.md",
+    "Ideas/Areas/Pasted image 20230516042022.png",
+    "Ideas/Areas/Pasted image 20230516042029.png",
+    "Ideas/Bosses/Pasted image 20240128065454.png",
+    "Ideas/Bosses/Pasted image 20240128065509.png",
+    "Pasted image 20260403102404.png",
+    "Pasted image 20260403102305.png",
+    "Doing Stuff.canvas",
+    "mood boards/club.17524.pur-journal",
+    "mood boards/club.17524.pur",
+    "Narrative.canvas",
+    "mood boards/club.pur",
+    "mood boards/club.38799.pur-journal",
+    "mood boards/club.38799.pur",
+    "Pasted image 20260115141153.png",
+    "mood boards/science nerd.pur.old",
+    "mood boards/science nerd.pur",
+    "mood boards/suburb streamline moderne.pur.old",
+    "mood boards/suburb streamline moderne.pur",
+    "Pasted image 20251219160455.png",
+    "mood boards/beach.pur.old",
+    "Puzzle Ideas.canvas",
+    "Suburbs.canvas",
+    "High-Level.canvas"
+  ]
+}

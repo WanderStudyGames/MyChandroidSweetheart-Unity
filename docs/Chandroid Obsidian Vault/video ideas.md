@@ -1,0 +1,6 @@
+- Persisting state outside of scenes
+	- Data Fork
+	- Manager SO
+- Consolidating many "general" monobehaviours with one "brain" component
+- Using motivation to guide development
+- signaloutput/signalinput system

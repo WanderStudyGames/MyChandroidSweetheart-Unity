@@ -1,0 +1,10 @@
+newmtl Mat_White_Seam_1
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/Toon/white_seam.png
+Kd 1.0 1.0 1.0
+d 1.0
+
+newmtl Mat_Stairs_1
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/street/stairs.png
+Kd 1.0 1.0 1.0
+d 1.0
+

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0f512609896b58c48a73940fcb7604e8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _sceneHandler: {instanceID: 0}
+  - _prefab: {fileID: 9076011541285272325, guid: ed38ce0b609817340887091299152cbf, type: 3}
+  - companionData: {instanceID: 0}
+  - BeforeCompanionDespawn: {instanceID: 0}
+  - followBehavior: {instanceID: 0}
+  - attackBehavior: {instanceID: 0}
+  - idleBehavior: {instanceID: 0}
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 442a2ac8a0543f44d9a37a30049c168a, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

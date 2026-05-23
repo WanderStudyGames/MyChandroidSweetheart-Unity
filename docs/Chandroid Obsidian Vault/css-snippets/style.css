@@ -1,0 +1,6 @@
+:root {
+    /* Where X is the index of the color in the palette */
+    /* The colors 1-6 are already used by Obsidian */
+    --canvas-color-7: 90, 130, 255;
+    /* RGB */
+}

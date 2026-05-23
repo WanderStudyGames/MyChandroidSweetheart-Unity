@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 342bfcef43293de4695f233b308e7bf0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerTracker: {fileID: 11400000, guid: e4c16b59c6df01347a0ffa2ba53f64a0, type: 2}
+  - OnSceneLoad: {fileID: 11400000, guid: d5c2a5b6e4babb843a9feec81c760a87, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

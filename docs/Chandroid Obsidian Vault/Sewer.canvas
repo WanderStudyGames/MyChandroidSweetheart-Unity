@@ -1,0 +1,416 @@
+{
+  "edges": [
+    {
+      "color": "3",
+      "fromNode": "7b6d22f27ba34c20",
+      "fromSide": "bottom",
+      "id": "3c1dbf12f72c71e8",
+      "label": "Path Requirement 2",
+      "styleAttributes": {
+      },
+      "toNode": "bdd45f1197fd90b9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "8563b095c369f17a",
+      "fromSide": "left",
+      "id": "20b27d65c447193e",
+      "toNode": "9376d2e7816c377e",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "a9f9454932f73887",
+      "fromSide": "left",
+      "id": "5ebe6ac1a19bb73e",
+      "toNode": "e1eeb1bb43bb4eeb",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "e1eeb1bb43bb4eeb",
+      "fromSide": "bottom",
+      "id": "2c46a848b54f5b1f",
+      "styleAttributes": {
+      },
+      "toNode": "41dceeae17038bb8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "41dceeae17038bb8",
+      "fromSide": "bottom",
+      "id": "05a9bb993ac90736",
+      "label": "Viewable",
+      "styleAttributes": {
+        "path": "dotted"
+      },
+      "toNode": "7b6d22f27ba34c20",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9376d2e7816c377e",
+      "fromSide": "left",
+      "id": "ae64817bb8be3e8b",
+      "styleAttributes": {
+      },
+      "toNode": "a9f9454932f73887",
+      "toSide": "right"
+    },
+    {
+      "color": "3",
+      "fromNode": "a9f9454932f73887",
+      "fromSide": "bottom",
+      "id": "b37098fac3171035",
+      "label": "Pipe open",
+      "styleAttributes": {
+      },
+      "toNode": "997bc37772a409e5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "997bc37772a409e5",
+      "fromSide": "left",
+      "id": "9008f078b1f3ba11",
+      "styleAttributes": {
+      },
+      "toNode": "7b6d22f27ba34c20",
+      "toSide": "right"
+    },
+    {
+      "color": "3",
+      "fromNode": "7b6d22f27ba34c20",
+      "fromSide": "left",
+      "id": "ad7d6a411e2d6733",
+      "styleAttributes": {
+      },
+      "toNode": "08f189ad8beb0454",
+      "toSide": "right"
+    }
+  ],
+  "metadata": {
+  },
+  "nodes": [
+    {
+      "height": 1300,
+      "id": "9d664da7532b7765",
+      "label": "Sewer",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2000,
+      "x": -1080,
+      "y": -820
+    },
+    {
+      "color": "1",
+      "height": 240,
+      "id": "bdd45f1197fd90b9",
+      "label": "Tech Nerd Lab",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 520,
+      "x": -920,
+      "y": 202
+    },
+    {
+      "height": 250,
+      "id": "a9f9454932f73887",
+      "label": "cool room",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 447,
+      "x": -240,
+      "y": -640
+    },
+    {
+      "height": 160,
+      "id": "997bc37772a409e5",
+      "label": ".",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 620,
+      "x": -326,
+      "y": -140
+    },
+    {
+      "height": 138,
+      "id": "7b6d22f27ba34c20",
+      "label": "Lab Access",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 520,
+      "x": -1020,
+      "y": -129
+    },
+    {
+      "height": 144,
+      "id": "9376d2e7816c377e",
+      "label": "Sewer Entrance",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 478,
+      "x": 400,
+      "y": -564
+    },
+    {
+      "height": 140,
+      "id": "e1eeb1bb43bb4eeb",
+      "label": ".",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 400,
+      "x": -960,
+      "y": -680
+    },
+    {
+      "height": 150,
+      "id": "41dceeae17038bb8",
+      "label": ".",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 300,
+      "x": -910,
+      "y": -420
+    },
+    {
+      "file": "Map.canvas",
+      "height": 400,
+      "id": "6e86360912de696a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -680,
+      "y": -1840
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "95b46bd741ec9d2b",
+      "styleAttributes": {
+      },
+      "text": "Power source juggle",
+      "type": "text",
+      "width": 300,
+      "x": 1110,
+      "y": -780
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "f6cc53c4821a8df7",
+      "styleAttributes": {
+      },
+      "text": "Carryable pad easy",
+      "type": "text",
+      "width": 300,
+      "x": 1110,
+      "y": -910
+    },
+    {
+      "height": 280,
+      "id": "5c3149a797f23acb",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "Pipe entrances closed. Requires opening to advance, level starts to take place in pipes for a while",
+      "type": "text",
+      "width": 260,
+      "x": -580,
+      "y": -478
+    },
+    {
+      "color": "3",
+      "height": 74,
+      "id": "46f8eb6bb33a19cb",
+      "styleAttributes": {
+      },
+      "text": "Open Pipes",
+      "type": "text",
+      "width": 190,
+      "x": -870,
+      "y": -375
+    },
+    {
+      "color": "2",
+      "height": 60,
+      "id": "c6fabac7c7afe306",
+      "styleAttributes": {
+      },
+      "text": "[[Shoulder Upgrade]]",
+      "type": "text",
+      "width": 260,
+      "x": -820,
+      "y": 242
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "101aa0a579ce74a8",
+      "styleAttributes": {
+      },
+      "text": "Puzzle water level 2 (no floaties)",
+      "type": "text",
+      "width": 440,
+      "x": -286,
+      "y": -80
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "e25d2c170c390c06",
+      "styleAttributes": {
+      },
+      "text": "[[Tech Nerd]]",
+      "type": "text",
+      "width": 260,
+      "x": -820,
+      "y": 342
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "5e8a0839b5a4d0aa",
+      "styleAttributes": {
+      },
+      "text": "Frog puzzle 1",
+      "type": "text",
+      "width": 260,
+      "x": -920,
+      "y": -640
+    },
+    {
+      "height": 98,
+      "id": "08f189ad8beb0454",
+      "styleAttributes": {
+      },
+      "text": "to Highway entrance?",
+      "type": "text",
+      "width": 260,
+      "x": -1640,
+      "y": -338
+    },
+    {
+      "height": 74,
+      "id": "968c24ffc3fb6d89",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "literal cold room?",
+      "type": "text",
+      "width": 260,
+      "x": -40,
+      "y": -684
+    },
+    {
+      "file": "City.canvas",
+      "height": 400,
+      "id": "35402aced3f75bcb",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -40,
+      "y": -1280
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "770f88b786e4889c",
+      "styleAttributes": {
+      },
+      "text": "Frog intro",
+      "type": "text",
+      "width": 250,
+      "x": 460,
+      "y": -529
+    },
+    {
+      "file": "City.canvas",
+      "height": 400,
+      "id": "8563b095c369f17a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1000,
+      "y": -557
+    },
+    {
+      "color": "1",
+      "height": 137,
+      "id": "77aefec5199503cd",
+      "styleAttributes": {
+      },
+      "text": "**Level design\ngets more vertical**",
+      "type": "text",
+      "width": 260,
+      "x": 520,
+      "y": -357
+    },
+    {
+      "height": 144,
+      "id": "7ff9001c214007e7",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "Starts to look like the lab from Pac-Man 2",
+      "type": "text",
+      "width": 260,
+      "x": -1180,
+      "y": -20
+    },
+    {
+      "color": "3",
+      "height": 219,
+      "id": "75dff7953365ceac",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "If you have the [[Floaties]] exit requires the [[Shoulder Upgrade]]. If not, it is just a normal one-way like the one under [[Level Docs/The Bridge|The Bridge]].",
+      "type": "text",
+      "width": 380,
+      "x": -1600,
+      "y": -210
+    },
+    {
+      "height": 152,
+      "id": "932e6cf4dca6d8bf",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "No inventor batteries in villains lairs",
+      "type": "text",
+      "width": 260,
+      "x": -1640,
+      "y": 220
+    },
+    {
+      "height": 60,
+      "id": "c7802db5a3f1b9d8",
+      "styleAttributes": {
+      },
+      "text": "Entrance from [[Highway Entrance]]",
+      "type": "text",
+      "width": 420,
+      "x": 420,
+      "y": -1180
+    },
+    {
+      "height": 80,
+      "id": "dcb6d006a80fe8f6",
+      "styleAttributes": {
+      },
+      "text": "Entrance from [[Ideas/Areas/The Bridge|The Bridge]]",
+      "type": "text",
+      "width": 360,
+      "x": 1130,
+      "y": -677
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+newmtl WhiteSeam
+map_Kd -o 0 0 -s 0.25 0.25 WhiteSeam.png
+Kd 0.9976667 0.965 1
+d 1
+
+newmtl Mat_BlackGrate
+map_Kd -o 0 0 -s 0.2 0.2 chainlink_fence.png
+Kd 0.8705882 0.8705882 0.8705882
+d 1
+

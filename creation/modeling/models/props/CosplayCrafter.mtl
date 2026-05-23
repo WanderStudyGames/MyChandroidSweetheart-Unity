@@ -1,0 +1,12 @@
+newmtl Mat_Plastic_White_Smooth
+Kd 0.9958333 0.9708334 1
+illum 2
+
+newmtl Mat_Black_Shiny
+Kd 0.30147 0.30147 0.39
+illum 2
+
+newmtl Mat_Chrome_Cartoon
+Kd 0.5807696 0.5807696 0.603
+illum 2
+

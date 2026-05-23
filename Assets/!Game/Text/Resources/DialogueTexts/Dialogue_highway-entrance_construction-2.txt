@@ -1,0 +1,2 @@
+You see that <color=yellow>unfinished road</color>?
+Yeah, you could hurt yourself trying to get across without <style=Companion>proper equipment</style>.

@@ -1,0 +1,1 @@
+every room discovered, item collected, puzzle solved, and power restored will be logged as an item

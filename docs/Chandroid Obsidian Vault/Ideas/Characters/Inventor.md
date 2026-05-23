@@ -1,0 +1,3 @@
+- Creator of perpetual energy batteries
+- Has history with [[Science Nerd]].  They were teen friends & colleagues who had different scientific goals. While [[Inventor]]'s path led him to create perpetual energy, [[Science Nerd]]'s path led him to conducting his evil plan.
+- Goes around looking for businesses to take his product to get it off the ground. Sense of urgency because he has suspicion of [[Science Nerd]]'s plan.

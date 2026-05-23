@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: cb9b2d1d9fda8ad47a97a708631bff7c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - nMAProfile: {fileID: 11400000, guid: 4cdc2ee7750cd3b4fa96039a20840256, type: 2}
+  - cm: {fileID: 11400000, guid: 565a5495ac177d740a03a17125385cc7, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

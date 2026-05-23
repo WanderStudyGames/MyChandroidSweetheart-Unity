@@ -1,0 +1,2 @@
+Ledge is too high for a normal jump. 
+Use the <color=yellow>Sprocket Gun<sprite=5 tint></color> to push yourself away from the floor.

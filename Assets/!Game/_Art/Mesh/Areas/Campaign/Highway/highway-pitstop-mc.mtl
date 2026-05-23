@@ -1,0 +1,226 @@
+Wavefront OBJ material file
+# Contains 22 materials
+
+newmtl Stone
+Ns 0
+Ka 0.0972549 0.0972549 0.0972549
+Kd 0.486275 0.486275 0.486275
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Oak_Planks
+Ns 0
+Ka 0.122353 0.101176 0.0572549
+Kd 0.611765 0.505882 0.286275
+Ks 0.0917647 0.0758824 0.0429412
+illum 2
+d 1
+Tr 0
+
+
+newmtl Bedrock
+Ns 0
+Ka 0.067451 0.067451 0.067451
+Kd 0.337255 0.337255 0.337255
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Stationary_Water
+Ns 0
+Ka 0.0321569 0.0729412 0.199216
+Kd 0.160784 0.364706 0.996078
+Ks 0.00482353 0.0109412 0.0298824
+illum 4
+d 0.535
+Tr 0.465
+Tf 0.91398 0.804882 0.467098
+
+
+newmtl Oak_Leaves
+Ns 0
+Ka 0.0870588 0.134902 0.0345098
+Kd 0.435294 0.67451 0.172549
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Glass
+Ns 0
+Ka 0.150588 0.192941 0.199216
+Kd 0.752941 0.964706 0.996078
+Ks 0.0225882 0.0289412 0.0298824
+illum 4
+d 0.5
+Tr 0.5
+Tf 0.623529 0.517647 0.501961
+
+
+newmtl Oak_Sign
+Ns 0
+Ka 0.129412 0.104314 0.0635294
+Kd 0.647059 0.521569 0.317647
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Oak_Door
+Ns 0
+Ka 0.0988235 0.0729412 0.0352941
+Kd 0.494118 0.364706 0.176471
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Oak_Wall_Sign
+Ns 0
+Ka 0.129412 0.104314 0.0635294
+Kd 0.647059 0.521569 0.317647
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Cherry_Pressure_Plate
+Ns 0
+Ka 0.128627 0.128627 0.128627
+Kd 0.643137 0.643137 0.643137
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Iron_Door
+Ns 0
+Ka 0.139608 0.139608 0.139608
+Kd 0.698039 0.698039 0.698039
+Ks 0.104706 0.104706 0.104706
+illum 2
+d 1
+Tr 0
+
+
+newmtl Pink_Stained_Glass
+Ns 0
+Ka 0.187451 0.187451 0.187451
+Kd 0.937255 0.937255 0.937255
+Ks 0.0281176 0.0281176 0.0281176
+illum 4
+d 0.5
+Tr 0.5
+Tf 0.531373 0.531373 0.531373
+
+
+newmtl Blue_Stained_Glass
+Ns 0
+Ka 0.187451 0.187451 0.187451
+Kd 0.937255 0.937255 0.937255
+Ks 0.0281176 0.0281176 0.0281176
+illum 4
+d 0.5
+Tr 0.5
+Tf 0.531373 0.531373 0.531373
+
+
+newmtl Oak_Slab
+Ns 0
+Ka 0.124706 0.101176 0.0627451
+Kd 0.623529 0.505882 0.313726
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Birch_Slab
+Ns 0
+Ka 0.124706 0.101176 0.0627451
+Kd 0.623529 0.505882 0.313726
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Birch_Stairs
+Ns 0
+Ka 0.168627 0.151373 0.104314
+Kd 0.843137 0.756863 0.521569
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Flower_Pot
+Ns 0
+Ka 0.0972549 0.0541176 0.0423529
+Kd 0.486275 0.270588 0.211765
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Block_of_Quartz
+Ns 0
+Ka 0.175686 0.173333 0.168627
+Kd 0.878431 0.866667 0.843137
+Ks 0.210824 0.208 0.202353
+illum 2
+d 1
+Tr 0
+
+
+newmtl Pink_Concrete
+Ns 0
+Ka 0.162353 0.167059 0.167843
+Kd 0.811765 0.835294 0.839216
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Blue_Concrete
+Ns 0
+Ka 0.162353 0.167059 0.167843
+Kd 0.811765 0.835294 0.839216
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Warped_Door
+Ns 0
+Ka 0.0368627 0.101176 0.0956863
+Kd 0.184314 0.505882 0.478431
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Stone_Stairs
+Ns 0
+Ka 0.0972549 0.0972549 0.0972549
+Kd 0.486275 0.486275 0.486275
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+

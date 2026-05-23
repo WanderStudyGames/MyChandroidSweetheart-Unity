@@ -1,0 +1,292 @@
+{
+  "edges": [
+  ],
+  "nodes": [
+    {
+      "height": 1340,
+      "id": "f4086a82ae5b8266",
+      "label": "Generations",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1320,
+      "x": 320,
+      "y": -280
+    },
+    {
+      "height": 1340,
+      "id": "7aab94127b263f42",
+      "label": "Culture",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 920,
+      "x": -660,
+      "y": -280
+    },
+    {
+      "height": 440,
+      "id": "35f6afd7744c323c",
+      "label": "meta",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 760,
+      "x": -1480,
+      "y": -620
+    },
+    {
+      "height": 280,
+      "id": "82f16de2615956a7",
+      "styleAttributes": {
+      },
+      "text": "#### what is admirable\n- technicians\n- philosophers\n- scientists\n- psychologists\n- artists",
+      "type": "text",
+      "width": 340,
+      "x": -600,
+      "y": 180
+    },
+    {
+      "height": 200,
+      "id": "9ba341a7d1a282ba",
+      "styleAttributes": {
+      },
+      "text": "#### social norms\n- no blind leaps of faith, or acting without thought\n- \"fitting in\" is having purpose, not pleasing others",
+      "type": "text",
+      "width": 600,
+      "x": -600,
+      "y": 820
+    },
+    {
+      "height": 320,
+      "id": "70c5b484c94c5931",
+      "styleAttributes": {
+      },
+      "text": "#### Suburbs\nThe suburbs is the major area where you see the older ways of life, the parental generation. Their architecture is of a Streamline Moderne style, their cars are more reflective chrome and brass. They are more likely to walk dogs, own non-sentient robots, and take care of their lawn.",
+      "type": "text",
+      "width": 540,
+      "x": -1360,
+      "y": -40
+    },
+    {
+      "height": 320,
+      "id": "ef844843e3d95b38",
+      "styleAttributes": {
+      },
+      "text": "Peoples:\n- Electropicans\n- Suburbs\n- Rural\n- Scientists\n- Beachgoers\n- Clubbers/Ravers",
+      "type": "text",
+      "width": 260,
+      "x": -1660,
+      "y": -40
+    },
+    {
+      "height": 240,
+      "id": "edbb36cd32f8bbf5",
+      "styleAttributes": {
+      },
+      "text": "3 stages of history\n- old barbaric\n- middle questioning\n- current ",
+      "type": "text",
+      "width": 260,
+      "x": -1660,
+      "y": 320
+    },
+    {
+      "height": 400,
+      "id": "bbd5ddbe31689514",
+      "styleAttributes": {
+      },
+      "text": "#### Concern with history\nphilosophical trajectory, history is relevant to people's lives, gives them a sense of direction, trajectory\n#### Upward trend\nEvery new generation is more admirable than the previous, achieves more, learns more, adds more\nThe way in which this is done may still be foreign to parents, but there is no longer as strong of a fear of their child losing their way, becoming immoral.",
+      "type": "text",
+      "width": 840,
+      "x": -600,
+      "y": -240
+    },
+    {
+      "height": 290,
+      "id": "d86eea393a640797",
+      "styleAttributes": {
+      },
+      "text": "#### common beliefs among most people\n- reason applied to observation is how to know\n- one takes oneself into account first, introspects, before making decisions\n- when you're doing or thinking something, there is always a reason, and that reason can be evaluated\n- everyone has great potential inside them",
+      "type": "text",
+      "width": 760,
+      "x": -600,
+      "y": 495
+    },
+    {
+      "height": 200,
+      "id": "7678a4f39b74a3fb",
+      "styleAttributes": {
+      },
+      "text": "#### what is funny\n- idiocy\n- the arbitrary\n- skepticism",
+      "type": "text",
+      "width": 380,
+      "x": -220,
+      "y": 180
+    },
+    {
+      "height": 800,
+      "id": "e99dcbabde37ba4b",
+      "styleAttributes": {
+      },
+      "text": "#### Ancient Religion\nVisually inspired by HR Giger\n\nThey were a culture of great fear. They plucked out their eyes for fear of hallucinations. They took ritualistic drugs to experience what they considered the true realm, the spiritual plane. Every household of two children was considered distracted and traitorous, so as punishment, their firstborn was to be made as a sacrifice to the ancient deities. They warned of a coming disaster that would end this world and ultimately establish the supremacy of the spiritual plane.\n\n\"Grey and Lifeless\" look isn't just a lack of color; it is a Rejection of the Material. If this culture believed the physical world was a \"hallucination\" and the spiritual plane was the \"True Realm,\" their architecture is a deliberate attempt to make this world look as dead and skeletal as possible to facilitate the transition to the next\n\nI want to say the art style should not be a departure from the Chandroid style. It's still a cel shaded, simplistic art style in general. So my dark aesthetics should still carry that relative simplicity. But I will use the design principles of giger, his conceptual connections, his mood. Things should look like body parts, they'll just look like cel shaded cartoony body parts.",
+      "type": "text",
+      "width": 760,
+      "x": 3240,
+      "y": 980
+    },
+    {
+      "height": 920,
+      "id": "0feadc32549eaaa8",
+      "styleAttributes": {
+      },
+      "text": "#### Villain - Science Nerd - Immanuel Belkovich\nIntrinsicist mystic, luddite\n\nHe is a mystic soothsayer who is well studied on ancient religions. He thinks he's using science and religion to uncover the horrifying and disastrous secrets of the universe, and so he must enact his plan to save everyone by accessing the spirit realm. He hopes he can either contact help or establish a pocket civilization for humans to survive the end of the world. The end of the world he has no empirical reason to believe exists, by the way. He's going off of prophetic coherence and vibes to conclude this.\n\nRacist against Chandroids and antagonistic to the young generation because he's gone back and read old religious texts warning of a great disaster. He steals the world's batteries in an effort to power his attempted portal to the supernatural realm. He's done linguistic studies to try and decipher ancient secrets, but he's coming up short. The stolen power is used to brute force translate the runes, but he's getting diminishing results. At the end of the game, your Chandroid girlfriend is able to decipher the language with the help of the villain's tech. He had never even considered allowing a Chandroid to try that because he hated them so much.\n\n\"I grew up watching my generation turn away from the truth, and now their kids are wiping away whatever was left of humanity. And the androids? Those clanking, buzzing sex toys are an affront to nature itself. Technology has betrayed us, and now we're paying for it.\"",
+      "type": "text",
+      "width": 720,
+      "x": 2180,
+      "y": 0
+    },
+    {
+      "height": 920,
+      "id": "3273538a30543271",
+      "styleAttributes": {
+      },
+      "text": "#### Inventor - Dr. Leonard Forge\n\nContrast to the villain. He went to college with the villain, noting his incredible brilliance, but also his touchiness around certain religious topics. At some point, the villain proposed an alliance, sharing his concern over the end of the world. The inventor was skeptical, and needless to say, they didn't end on good terms, and the villain harshly turned away, swearing that he'd save us one way or another, swearing that everyone would learn to thank him. Well, the inventor had been working on his own project, the perpetual battery, when he got wind of power getting shut down all over the place, and batteries being stolen. In a hurry, he got his batteries out to everyone as a temporary gift. He knew the blackouts were a result of his old colleague.",
+      "type": "text",
+      "width": 600,
+      "x": 2940,
+      "y": 0
+    },
+    {
+      "height": 920,
+      "id": "d12bb41a5f62c471",
+      "styleAttributes": {
+      },
+      "text": "### Fangirl Nerd - Christie Luntz\n\nShe's following our villain's leadership because he had convinced her. And because her disposition makes her amenable to any sort of envy. She is also fed up with her society, wishing for a return to nature where equality and peace (stagnation, no movement) can be realized. She spends her free time studying fiction, waiting for new episodes of her favorite shows, and shipping characters that aren't even hinted at liking each other. When your Chandroid points out that her favorite ship isn't even objectively canon, that's when she flies into a rage and uses her chainsaw to chase our main characters, initiating a boss battle through a simple obstacle course in the forest.\n\n\"No, no, NO!! Lily and Rose are in *LOVE*, clearly! It's not about Bryce! He's the *DISTRACTION!* Just because he proposes does NOT mean Lily loves him! Same thing with Rose and Jon! I'm-... I'm SO tired of these TOXIC, ELITIST-...!!! D-GWRAAAHH!!!\"",
+      "type": "text",
+      "width": 660,
+      "x": 3580,
+      "y": 0
+    },
+    {
+      "height": 760,
+      "id": "c390ad94fc0fc6e0",
+      "styleAttributes": {
+      },
+      "text": "#### slang\nwords or phrases that condense down concepts to repeatable memes, used by subcultures to establish themselves as different, particularly the youth\nconcepts like actions, values, virtues\nthey take the form of concretes, not abstractions\nmetaphors\nKids of today are most interested in electronics, so their slang is centered around computer and robotics terminology\n- chipped - joyful, excited\n- yellow - cringe, pathetic, weak\n- screen/pixel - poser, one worried about others' opinions, performative\n- fan/exhaust fan, fanning - someone talking bullshit\n- exhaust/fog - said bullshit, lies, falsehoods\n- oiled - good, fast, sleek, cool\n\n#### older generation's slang\nfocused more on economic terms, mechanics, industry\n- gassed up - energized\n- steam powered - highly driven, internally motivated",
+      "type": "text",
+      "width": 1220,
+      "x": 360,
+      "y": 180
+    },
+    {
+      "height": 140,
+      "id": "3ef95ebab429ece8",
+      "styleAttributes": {
+      },
+      "text": "sci-fi nerd uses arachnae as an actual slave, punishing her into obedience",
+      "type": "text",
+      "width": 380,
+      "x": 3580,
+      "y": -200
+    },
+    {
+      "height": 200,
+      "id": "618ed9d55430f602",
+      "styleAttributes": {
+      },
+      "text": "what if batteries were collectibles?\nIf you were given batteries rather than finding them already connected?",
+      "type": "text",
+      "width": 380,
+      "x": 2340,
+      "y": -300
+    },
+    {
+      "height": 360,
+      "id": "c36c230dbe450f87",
+      "styleAttributes": {
+      },
+      "text": "Generational Specialization\nWhile the older generation were the industrialists, the entrepreneurs, the builders, the foundation layers, the new generation are the computer kids, the tech enthusiasts, the robotics nerds. They carry similar ideals, and have a fond love for the history their parents built, the world they grew up in, but they also define themselves a little differently, chase after new advancements, new frontiers.\n\nThe even further previous generation were the explorers, the merchants, the traders.\n\n\n",
+      "type": "text",
+      "width": 760,
+      "x": 360,
+      "y": -240
+    },
+    {
+      "height": 340,
+      "id": "857bffd26eda1177",
+      "styleAttributes": {
+      },
+      "text": "- player must be able to get up into the back room of the experiment chamber after boss defeat\n- player must be able to enter and exit the room freely except for when the boss battle is happening. [[Science Nerd]] will lock the doors\n- ",
+      "type": "text",
+      "width": 500,
+      "x": 4080,
+      "y": 2060
+    },
+    {
+      "height": 380,
+      "id": "1265a08c836abc88",
+      "styleAttributes": {
+      },
+      "text": "Stuck inside a boxed room with four grills, one on each wall\nLaser walls shoot from the grills, and meanwhile grappleable drones float down and charge up lasers that kill\n\nDamaging the boss:\n",
+      "type": "text",
+      "width": 420,
+      "x": 1920,
+      "y": 1560
+    },
+    {
+      "height": 400,
+      "id": "97763419d2970248",
+      "styleAttributes": {
+      },
+      "text": "Belkovich should visually represent a compromise between mysticism and science.\n\nHe is a prophet.\n\n- labcoat\n- robe tassles",
+      "type": "text",
+      "width": 320,
+      "x": 2180,
+      "y": 980
+    },
+    {
+      "height": 800,
+      "id": "6ac35a0d0cf9467c",
+      "styleAttributes": {
+      },
+      "text": "Boss:\n- periodic 2d lasers\n- grappleable drones\n\nHow could the player do damage?\nWhat is a possible vulnerability of the science nerd in that situation?\n- his incompetence\n- his hatred\n\nthis question is about function, not form\n\nreflected projectile\nsurvival timer\nexposed weak spot\nhand-to-hand combat\n\nexposed weak spot it is!\n\nlaser wall\ndrones\nlaser wall with drones in successive intensities\nweak point exposed 1",
+      "type": "text",
+      "width": 800,
+      "x": 2020,
+      "y": 2580
+    },
+    {
+      "height": 400,
+      "id": "956e8aae17357d8a",
+      "styleAttributes": {
+      },
+      "text": "what would belkovich say the limit should be?\n\nhow much would he want to embrace his own culture vs that of the ancients?\n\nhis luddism would mean he wouldn't want anything that looks like the city at all. he'd tolerate the industrialist aesthetic.\n\n",
+      "type": "text",
+      "width": 500,
+      "x": 1360,
+      "y": 2340
+    },
+    {
+      "height": 1440,
+      "id": "bfd42b0af9eb960d",
+      "styleAttributes": {
+      },
+      "text": "### Belkovich's Hypocrisy\nsociety is so good, so prosperous, that it would be absurd to expect its villains to be exactly as depraved as the ancient religion. It would make sense for the villain to have an optional blindfold, rather than gouge out his eyes or something. His mind is still helplessly softened by the context of his birth. He can't help but be only slightly more civilized than the ancients. This doesn't stop him from hating the good or stealing property, though. He just wouldn't kill a firstborn child.\n\nDuring the boss fight, the Villain might take the blindfold off when things get too dangerous. This reveals his hypocrisy—his \"Spirituality\" ends where his survival begins\n\nImplementation: The \"Chipping\" Effect When you \"Vibe-Box\" the Villain’s arena, show that his \"Grey\" is artificial: If the Chandroid hits a \"Grey\" pillar, have the grey paint \"chip off\" to reveal the Sleek Brass underneath. This reinforces the \"Sharp Teeth\" of your ideology: The Villain is trying to hide the truth of the world, but the Truth (The Lustre) is more fundamental than his \"Grey\" religion.\n\nhis hypocrisy will be viewed by him as further enlightenment. He takes the good from science and reason while discarding the bad or the places where it falls short. He believes his eyes still have use to him, but there's more to know beyond their reach. He wants to contact the spiritual plane as much as possible, so he dons the blindfold and takes modern-day hallucinogens.\n\nThis villain is the ultimate \"Wall\" because he claims to have \"incorporated\" you. He thinks he is the \"next step\" of your evolution.\n\nThe Narrative: To him, \"discarding the bad\" means removing the Individualism from the science. He uses the Inventor's medicine to keep his cultists alive, but he uses the \"Ancient Grey\" to break their spirit.\nThe Result: You find \"Sleek\" medical pods that have been \"re-programmed\" to keep people in a permanent, grey, drug-induced spiritual trance.\n\nBelkovich himself doesn't have an answer to where his belief in the ancients ends and his modern sensibilities begin. He's just plucked their superstition from the past and tried to incorporate it into his life.",
+      "type": "text",
+      "width": 660,
+      "x": 2540,
+      "y": 980
+    },
+    {
+      "height": 260,
+      "id": "7f0b15f1d21c8a4c",
+      "styleAttributes": {
+      },
+      "text": "I don't want to change my level creation techniques. I still want to primarily use probuilder, and not blender, to model my levels. I need to select the most easily implemented giger-esque decorations and trimmings to implement via probuilder.",
+      "type": "text",
+      "width": 480,
+      "x": 3360,
+      "y": 2020
+    }
+  ]
+}

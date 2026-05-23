@@ -1,0 +1,2 @@
+In case you didn't know, Chandroids' battery modules also contain our long-term disk storage.
+That's where our most important memories are kept.

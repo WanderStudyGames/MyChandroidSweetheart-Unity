@@ -1,0 +1,1 @@
+internet world cyberspace as fast travel but don't call it fast travel, also its own area with its own exploration

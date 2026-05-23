@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"type":"text","text":"hillbilly that studied robotics\n---\ndoes his electronics homework right after feeding the chickens and pigs","id":"4b1779b7317a4cdb","x":-280,"y":-180,"width":595,"height":204},
+		{"type":"text","text":"Fisherman\n\nlives on the beach\nboat on the dock\nwarns player about [[Octopus]]","id":"a7fab516d63f445f","x":-320,"y":200,"width":460,"height":240},
+		{"type":"text","text":"## [[Shopkeeper]]\nTrying to put his son through college\nNever thought his business would be ended in such a sudden way\n\n","id":"df203a2e6bad50ad","x":-960,"y":80,"width":570,"height":270},
+		{"type":"file","file":"Vertical Slice.canvas","id":"01a581f74e05f979","x":-920,"y":-376,"width":400,"height":400},
+		{"type":"text","text":"Spider\nWhen scanned, translated to \"Do you like your humans with the peel on, or no?\"","id":"2b5da58e524d3c00","x":-960,"y":400,"width":259,"height":250},
+		{"type":"text","text":"Wind chimes on bridge operation deck","id":"0cf65342a690dcb7","x":-360,"y":776,"width":250,"height":118},
+		{"type":"text","text":"Inventory:\nChandroid cutely tests out whatever item is selected","id":"a2a4af961e311597","x":-235,"y":955,"width":375,"height":180},
+		{"type":"text","text":"Battery checklist?","id":"a82203b5e77544be","x":-515,"y":1160,"width":250,"height":100},
+		{"type":"text","text":"Banana eater (shopkeeper's son) next to river\n\n> banana peels floating are an indication to the player that the bridge and the river are connected\n\n\"MMfmfmmfff.... Mmm-hffmm, fmmm hmm!\"\nChandroid: \"How's that? You're working your way through college, and you're worried your dad might go out of business, leaving you without tuition money?\"\n\"What's that? How do I know what you're saying? Well, living with Lord Loud-Eater over here, you learn the language pretty quick.\"\n\nAppearance looks like wimpy but a bit more monkey like\n* bigger ears\n* closer together eyes\n* bigger/more separated mouth section\n\n![](https://comicvine.gamespot.com/a/uploads/scale_small/7/72648/2546114-wimpy.jpg)\n\nafter draining water,\nbananas sitting at the bottom + pile of bananas forming right next to where eater is sitting","id":"f7a1acd16c208e51","x":-200,"y":1280,"width":500,"height":1400},
+		{"type":"text","text":"Cracked egg icon when player dies of Fall damage ","id":"03e6c7c7bdfebdde","x":-640,"y":633,"width":250,"height":143},
+		{"type":"text","text":"water level display screen in bridge control deck (blinking)","id":"036af9b4483dfe3c","x":-200,"y":3040,"width":250,"height":160},
+		{"type":"text","text":"\"Marketplace Waterbed -->\"\nsign painted on dam wall","id":"b53de86508fa6f85","x":-200,"y":2860,"width":250,"height":160},
+		{"type":"text","text":"Kid in spring shoes\nchange metal shoes to spring suspension shoes","id":"9fb884bbad706cec","x":-200,"y":2700,"width":421,"height":140},
+		{"type":"text","text":"giant Frogs in sewer level\nbouncing on frogs mechanic just like [[Bouncy Skirt]]\nadds more puzzle opportunities","id":"8878669c7fc9c679","x":-1300,"y":955,"width":340,"height":180},
+		{"type":"text","text":"Time attack for replaying batteries -- unlocks cosmetics","id":"db8298c8bbbceac2","x":-1000,"y":1160,"width":360,"height":100},
+		{"id":"834759048929fefe","type":"text","text":"Gaming","x":-1180,"y":-1,"width":157,"height":50}
+	],
+	"edges":[]
+}

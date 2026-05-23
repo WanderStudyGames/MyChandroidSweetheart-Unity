@@ -1,0 +1,1 @@
+<sprite=8 tint> <color=yellow>Command Chandroid to stand</color>

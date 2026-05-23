@@ -1,0 +1,4 @@
+You've just acquired the <color=yellow>Diver's Breathing Device!</color>
+The device allows its user to breathe underwater, 
+which means your Chandroid can pull you to the sea floor with her!
+Just look for the <color=blue>bubbles</color> she emits when underwater.

@@ -1,0 +1,28 @@
+{
+  "edges": [
+  ],
+  "nodes": [
+    {
+      "height": 220,
+      "id": "f97f4d535a66b879",
+      "styleAttributes": {
+      },
+      "text": "Humanity has begun drilling planets for resources at a grand scale, they've created a dison sphere and are populating other planets and solar systems",
+      "type": "text",
+      "width": 440,
+      "x": 20,
+      "y": -160
+    },
+    {
+      "height": 180,
+      "id": "da369a04b102b2f4",
+      "styleAttributes": {
+      },
+      "text": "Humans are viewed with awe on other planets because Chandroids have mainly been populating them.",
+      "type": "text",
+      "width": 420,
+      "x": -460,
+      "y": -120
+    }
+  ]
+}

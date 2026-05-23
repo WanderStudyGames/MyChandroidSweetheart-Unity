@@ -1,0 +1,1 @@
+puzzle name, required equipment, fastest completion time, etc

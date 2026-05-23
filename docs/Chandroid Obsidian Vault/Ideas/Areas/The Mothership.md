@@ -1,0 +1,1 @@
+No aliens visible in interior. Tinted windows with aliens observing behind glass.

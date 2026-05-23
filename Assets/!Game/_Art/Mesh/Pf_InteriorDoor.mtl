@@ -1,0 +1,15 @@
+newmtl Mat_Faint_Lines_1
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/street/faint_lines.png
+Kd 1.0 1.0 1.0
+d 1.0
+
+newmtl Mat_White_Seam_1
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/Toon/white_seam.png
+Kd 1.0 1.0 1.0
+d 1.0
+
+newmtl Mat_White_Seam
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/Toon/white_seam.png
+Kd 0.9976667 0.965 1
+d 1
+

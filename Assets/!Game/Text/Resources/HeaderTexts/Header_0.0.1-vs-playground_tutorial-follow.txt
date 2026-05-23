@@ -1,0 +1,1 @@
+<sprite=7 tint> <color=yellow>Command Chandroid to follow</color>

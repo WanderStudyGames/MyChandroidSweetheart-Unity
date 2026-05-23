@@ -1,0 +1,18 @@
+newmtl WhiteSeam
+Kd 0.9976667 0.965 1
+map_Kd null
+illum 2
+
+newmtl DirtLarge
+Kd 0.553 0.3768428 0.2185242
+map_Kd null
+illum 2
+
+newmtl Mat_Flowers
+Kd 0.9 0.9 0.9
+illum 2
+
+newmtl Mat_Plastic_White_Smooth
+Kd 0.9958333 0.9708334 1
+illum 2
+

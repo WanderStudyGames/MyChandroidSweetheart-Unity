@@ -1,0 +1,4 @@
+You've just acquired the <color=yellow>Grapple Hitch!</color>
+This device attaches to your chandroid's lower back.
+It can be hooked into by your grappling hook, 
+allowing you to <color=#0094FF>pull your chrandroid to you from long distances!</color>

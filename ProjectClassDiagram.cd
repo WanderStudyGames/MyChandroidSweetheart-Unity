@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BigTitleAttribute" Collapsed="true">
+    <Position X="46" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Attributes\BigTitle\BigTitleAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DependencyAttribute" Collapsed="true">
+    <Position X="47.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Attributes\Dependency\DependencyAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DependencyFoldoutAttribute" Collapsed="true">
+    <Position X="49.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Attributes\Dependency\DependencyFoldoutAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeparatorAttribute" Collapsed="true">
+    <Position X="47.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Attributes\Separator\SeparatorAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NMAProfile" Collapsed="true">
+    <Position X="51.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAQQAQBAAACAAAAA=</HashCode>
+      <FileName>Assets\Game\AI\NMAProfile\NMAProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanionSpawner" Collapsed="true">
+    <Position X="44.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAGAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Areas\Test\0.0\vslice\vs1\scripts\CompanionSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpawnerDoor" Collapsed="true">
+    <Position X="49.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAIAAAAAAAAQAAEAAAgAAAQAAAAACAAAA=</HashCode>
+      <FileName>Assets\Game\Areas\Test\0.0\vslice\vs1\scripts\SpawnerDoor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpawnerDoorTrigger" Collapsed="true">
+    <Position X="51.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAQAAAAAAAAAAAAAAIAAQAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Game\Areas\Test\0.0\vslice\vs1\scripts\SpawnerDoorTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GiveAbility" Collapsed="true">
+    <Position X="34.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACIAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Areas\Test\0.0.1\0.0.1-test-01\GiveAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColliderExecutor" Collapsed="true">
+    <Position X="49.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Areas\Test\0.0.1\0.0.1-test-01\mesh\item\grapple\Scripts\ColliderExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BGM" Collapsed="true">
+    <Position X="44.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAABQAAAAAAAAEAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Game\Audio\Music\BGM\BGM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicManager" Collapsed="true">
+    <Position X="47.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAACAAAEAAAAQAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Game\Audio\Music\BGM\MusicManager\MusicManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicFader" Collapsed="true">
+    <Position X="46" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAiAAAAAAAAAAAAAAAEAQAEAAAoAAAAAAKIEA=</HashCode>
+      <FileName>Assets\Game\Audio\Music\MusicFader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityRoot" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\Component\EntityRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectComponent" Collapsed="true">
+    <Position X="22" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAAAAAAAAACAAAAAQAAAAAAEAAIA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\Component\ObjectComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ComponentFlag" Collapsed="true">
+    <Position X="2.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAQABAAAAAABIA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\ComponentFlag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentProfile" Collapsed="true">
+    <Position X="17.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\ComponentProfile\ComponentProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProfileFor" Collapsed="true">
+    <Position X="47.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\ComponentProfile\ProfileForAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameAction" Collapsed="true">
+    <Position X="42.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\GameAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameAction&lt;T&gt;" Collapsed="true">
+    <Position X="44.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\GameAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameActionList&lt;T&gt;" Collapsed="true">
+    <Position X="39.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACIAAAAABAABAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\GameActionList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaggedValue&lt;T&gt;" Collapsed="true">
+    <Position X="46" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\GameActionListMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameActionListMethods" Collapsed="true">
+    <Position X="46" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAQABAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\GameActionListMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObjectExtensions" Collapsed="true">
+    <Position X="53" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\GameObjectExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoBehaviourExtension" Collapsed="true">
+    <Position X="21" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAACAAAAAAAAAAAAAAICAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\MonoBehaviourExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptableObjectExtension" Collapsed="true">
+    <Position X="2.75" Y="16" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAgABAAAAgAABAAAAAAAIAAAAAAAECAA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\ScriptableObjectExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionBase" Collapsed="true">
+    <Position X="46" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\SelectionBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StringFunctions" Collapsed="true">
+    <Position X="44.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\BaseClasses\StringFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgAAAAAABAAAAAIACAAAACAQAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\BaseClass\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterComponent" Collapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\BaseClass\CharacterComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBehaviorAttack" Collapsed="true">
+    <Position X="18.25" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIIAQAAAAAAAAAAAAAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Companion\Behaviors\CBehaviorAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBehaviorFollow" Collapsed="true">
+    <Position X="20.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAQAAAAIAAAAAAAAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Companion\Behaviors\CBehaviorFollow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBehaviorIdle" Collapsed="true">
+    <Position X="16" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Companion\Behaviors\CBehaviorIdle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanionBehavior" Collapsed="true">
+    <Position X="18.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Companion\Behaviors\CompanionBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanionManager" Collapsed="true">
+    <Position X="42.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FIIAAAAApABAEAQgBACAAAAAAACAAgQIgAAKABAAAAE=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Companion\Manager\CompanionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEnemyDetection" Collapsed="true">
+    <Position X="47.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Companion\Scripts\CEnemyDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Companion" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAaAAAAAgCAEAAQAAAAAAgAAAIgIgAAIEAAAQAgAANE=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Companion\Scripts\Companion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanionInteractDetector" Collapsed="true">
+    <Position X="51.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Companion\Scripts\CompanionInteractDetector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanionState" Collapsed="true">
+    <Position X="46" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Companion\States\CompanionState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="51.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Enemies\Test\Scripts\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyAttack" Collapsed="true">
+    <Position X="53" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Enemies\Test\Scripts\EnemyAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerAbilityFlag" Collapsed="true">
+    <Position X="5.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\BaseClass\PlayerAbilityFlag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerAbilityProfile" Collapsed="true">
+    <Position X="20.5" Y="12.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\BaseClass\PlayerAbilityProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerComponentFlag" Collapsed="true">
+    <Position X="0.5" Y="22" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\BaseClass\PlayerComponentFlag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerComponentProfile" Collapsed="true">
+    <Position X="17.75" Y="11.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\BaseClass\PlayerComponentProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commands" Collapsed="true">
+    <Position X="21" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACAAEAAAAAAAAAAAAgAAQAAAQAAAAAAAACEAAEA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\Commands\Commands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandsProfile" Collapsed="true">
+    <Position X="18.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAQAAAAAAAABA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\Commands\Profiles\CommandsProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GrappleProfile" Collapsed="true">
+    <Position X="20.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEAAgAEAAAAAAECAAQAAAAAAAAAAAAABAQEAgAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\Grapple\Profiles\GrappleProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grapple" Collapsed="true">
+    <Position X="27.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgSBAACEECBAAAkAACAAAAAIACAAAAAAAAEAAmECAMA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\Grapple\Scripts\Grapple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interact" Collapsed="true">
+    <Position X="30" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQACEAAAAAAAAAAAAAAAAAAAAAAAAAAAACEAAEI=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\Interact\Interact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InteractProfile" Collapsed="true">
+    <Position X="22.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\Interact\Profiles\InteractProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerAbilities" Collapsed="true">
+    <Position X="42.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAABAAAAAAAAAACAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\PlayerAbilities\PlayerAbilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScannerProfile" Collapsed="true">
+    <Position X="25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAAIICAAAACUCAAAAAQAAAAAACAAAAQAAIAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\Scanner\Profiles\ScannerProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScanMaterials" Collapsed="true">
+    <Position X="51.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAFAAAAAAAAABAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\Scanner\Scan\Materials\ScanMaterials\ScanMaterials.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scan" Collapsed="true">
+    <Position X="49.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACQAABAIIAAEAQIABEAAABAQEAgACAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\Scanner\Scan\Scan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scanner" Collapsed="true">
+    <Position X="16.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAgAGQAAAAAAAAAAACAAASAAAAAgAAAAACEFAMA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\Scanner\Scanner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SprocketProfile" Collapsed="true">
+    <Position X="16" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAIAAAAAAAAAAAAGAAwAAAAAAEAAkAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\Sprocket\Profiles\SprocketProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sprocket" Collapsed="true">
+    <Position X="25.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEAEBAEACAAAAAACACAKAAAAAAAAAAAAAAACEAAEA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Abilities\Sprocket\Scripts\Sprocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerManager" Collapsed="true">
+    <Position X="3.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAATAABAIgAIEwAgQAAIAAAAAAEAEACAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Manager\PlayerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMode" Collapsed="true">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\PlayerState\PlayerMode\PlayerMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerState" Collapsed="true">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\PlayerState\PlayerState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerLookProfile" Collapsed="true">
+    <Position X="10.75" Y="12.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAQAAQAAAAAAAIAAAAAAAQAgAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Profiles\PlayerLookProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovementProfile" Collapsed="true">
+    <Position X="13.25" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAgAABCAAAAAAQAAAAAAAQAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Profiles\PlayerMovementProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAABAAAAgAAAAABAAAAAAAAAAAAAAABgAAMA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Scripts\Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PlayerComponent" Collapsed="true">
+    <Position X="23.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAMA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Scripts\PlayerComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerInputHandler" Collapsed="true">
+    <Position X="2.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CgQAAQgAACQAIEAAAAAACKQQACAAhAEAAAAAANAIgiA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Scripts\PlayerInputHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerLook" Collapsed="true">
+    <Position X="18.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAEAAAAAAAAAAAIAAAADAAAAAAAAAAACEBAEE=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Scripts\PlayerLook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMove" Collapsed="true">
+    <Position X="23.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQkEAAEEoAAIgUCAgAAAAABACAAQEAAEARoAAEABGA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Scripts\PlayerMove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStateSwitch" Collapsed="true">
+    <Position X="32.25" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAhAAACKAIAAIAIAACAEAAACCAAAAQAEAAAABAAIA=</HashCode>
+      <FileName>Assets\Game\Entities\Characters\Player\Scripts\PlayerStateSwitch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEvent" Collapsed="true">
+    <Position X="0.75" Y="17.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAICAACIAAAAJAggAAAgAAAAIAQJAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\MiscScripts(Empty Out)\GameEvent\GameEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEventResponse" Collapsed="true">
+    <Position X="51.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAABAAAACAACAAgAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\MiscScripts(Empty Out)\GameEvent\GameEventListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEventListener" Collapsed="true">
+    <Position X="47.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Game\MiscScripts(Empty Out)\GameEvent\GameEventListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEventRaiser" Collapsed="true">
+    <Position X="49.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACgAAIAAAAAAQAAAAAAAAAAAUAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\MiscScripts(Empty Out)\GameEvent\GameEventRaiser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GSManagerMB" Collapsed="true">
+    <Position X="42.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACAAAAAAAEQAAAAAAAAAAAAAggAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\MiscScripts(Empty Out)\GSManager\GSManagerMB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagerSO" Collapsed="true">
+    <Position X="4.25" Y="17.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAIIABAQQAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Game\MiscScripts(Empty Out)\Manager\ManagerSO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanionInteractible" Collapsed="true">
+    <Position X="53" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Game\MiscScripts(Empty Out)\Objects\CompanionInteractible.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GrappleObject" Collapsed="true">
+    <Position X="5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Game\MiscScripts(Empty Out)\Objects\GrappleObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InteractibleObject" Collapsed="true">
+    <Position X="44.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAABQAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\MiscScripts(Empty Out)\Objects\InteractibleObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NavMeshRebake" Collapsed="true">
+    <Position X="49.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Assets\Game\MiscScripts(Empty Out)\Objects\NavMeshRebake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayLegacyAnimation" Collapsed="true">
+    <Position X="44.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\MiscScripts(Empty Out)\Objects\PlayLegacyAnimation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PostProcProfileSwitcher" Collapsed="true">
+    <Position X="46" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACAAAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\Game\PostProc\Scripts\PostProcProfileSwitcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneHandler" Collapsed="true">
+    <Position X="53" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEABAAEgAEwAAAAAICAAAIAAIQCAAEAAAgAAACoA=</HashCode>
+      <FileName>Assets\Game\Scenes\SceneHandler\SceneHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneLoadArea" Collapsed="true">
+    <Position X="42.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAAAAAAAAAAAAgAAAAEAAIAAAAAAQAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Game\Scenes\SceneLoadArea\SceneLoadArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneProfile" Collapsed="true">
+    <Position X="44.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAEAAAACAAAAAQAAAAAACAA=</HashCode>
+      <FileName>Assets\Game\Scenes\SceneProfile\SceneProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneStartup" Collapsed="true">
+    <Position X="37.25" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAEAAAAAgAAEA=</HashCode>
+      <FileName>Assets\Game\Scenes\SceneStartup\SceneStartup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spawnpoint" Collapsed="true">
+    <Position X="53" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Scenes\Spawnpoints\Spawnpoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpawnpointList" Collapsed="true">
+    <Position X="42.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\Scenes\Spawnpoints\SpawnpointList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIComponentProfile" Collapsed="true">
+    <Position X="8.25" Y="11.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\UI\BaseClass\Profiles\UIComponentProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIRootProfile" Collapsed="true">
+    <Position X="27.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Game\UI\BaseClass\Profiles\UIRootProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIComponent" Collapsed="true">
+    <Position X="14.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\UI\BaseClass\UIComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIRootFlag" Collapsed="true">
+    <Position X="3" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAgAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\UI\BaseClass\UIRootFlag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIManager" Collapsed="true">
+    <Position X="5.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAIABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\UI\Manager\UIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScanUIComponent" Collapsed="true">
+    <Position X="14.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Game\UI\Scan\BaseClass\ScanUIComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScanUIProfile" Collapsed="true">
+    <Position X="8.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAIAAAAEIAAAAIAACAIAAAAAgEAAgCABIAAABABg=</HashCode>
+      <FileName>Assets\Game\UI\Scan\Profiles\ScanUIProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScanUIRoot" Collapsed="true">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\UI\Scan\ScanUIRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScanUI" Collapsed="true">
+    <Position X="14.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAkCAAAAAAAAADAAAAIQAAAAAEAEAAIAAkAAA=</HashCode>
+      <FileName>Assets\Game\UI\Scan\Scripts\ScanUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextScroll" Collapsed="true">
+    <Position X="47.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAIAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Game\UI\Scripts\TextScroll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIRoot" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game\UI\Scripts\UIRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="@PlayerActions" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAADBACSAABACAAAACFABCQARAOAEAABiAABRAAA=</HashCode>
+      <FileName>Assets\Input\PlayerActions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OBJExporter" Collapsed="true">
+    <Position X="53" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQIEQAAAAAIABAAASAAABIBAgAAACiIAgIAEgEAAAAA=</HashCode>
+      <FileName>Assets\Packages\OBJExport\OBJExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IGameEntityScript" Collapsed="true">
+    <Position X="42.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Game\Entities\BaseClass\IGameEntityScript.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

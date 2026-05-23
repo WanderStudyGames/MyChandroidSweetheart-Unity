@@ -1,0 +1,2 @@
+Press <sprite=6> to skip pages.
+Using the scan glasses, you can learn useful information about certain objects, and even <color=red>activate</color> things in the world.

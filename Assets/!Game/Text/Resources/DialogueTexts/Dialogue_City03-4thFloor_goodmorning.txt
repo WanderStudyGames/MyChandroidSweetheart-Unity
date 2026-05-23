@@ -1,0 +1,2 @@
+Oh, good morning, <playername>. 
+How's it going, <companionname>?

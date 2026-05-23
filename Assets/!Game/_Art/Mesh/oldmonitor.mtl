@@ -1,0 +1,9 @@
+newmtl Mat_White_Seam_2
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/Toon/white_seam.png
+Kd 1.0 1.0 1.0
+d 1.0
+
+newmtl Mat_Black_Shiny
+Kd 0.30147 0.30147 0.39
+d 1
+

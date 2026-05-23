@@ -1,0 +1,85 @@
+{
+  "edges": [
+  ],
+  "nodes": [
+    {
+      "height": 780,
+      "id": "5cf57ecb264c3f70",
+      "label": "Rural Area",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2540,
+      "x": -1600,
+      "y": -220
+    },
+    {
+      "height": 400,
+      "id": "d979290e79bc9bb7",
+      "label": "Old Mine",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 400,
+      "x": -1540,
+      "y": -80
+    },
+    {
+      "height": 400,
+      "id": "0f98a1a8c34b6ce2",
+      "label": "Laboratory",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 400,
+      "x": 360,
+      "y": -80
+    },
+    {
+      "height": 400,
+      "id": "9081aa649e48566b",
+      "label": "Farm",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 400,
+      "x": -200,
+      "y": -80
+    },
+    {
+      "height": 400,
+      "id": "3f61e6575e75a2d0",
+      "label": "Entrance",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 400,
+      "x": -860,
+      "y": -80
+    },
+    {
+      "height": 60,
+      "id": "e8bbbaff394c4014",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "gorge",
+      "type": "text",
+      "width": 140,
+      "x": 200,
+      "y": 340
+    },
+    {
+      "height": 160,
+      "id": "7ba363b0956a2b8d",
+      "styleAttributes": {
+      },
+      "text": "Furry character talks about awesome dance club\n\nThey couldn't go because the old Skies apartments elevator got boarded up.",
+      "type": "text",
+      "width": 1120,
+      "x": -1160,
+      "y": -400
+    }
+  ]
+}

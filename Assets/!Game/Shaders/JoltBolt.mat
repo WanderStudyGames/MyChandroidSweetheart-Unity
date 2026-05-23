@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: JoltBolt
+  m_Shader: {fileID: -6465566751694194690, guid: 0aadd57946c391145b6b99bde9d02b0c, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _BUILTIN_AlphaClip: 0
+    - _BUILTIN_Blend: 0
+    - _BUILTIN_CullMode: 2
+    - _BUILTIN_DstBlend: 0
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _BUILTIN_SrcBlend: 1
+    - _BUILTIN_Surface: 0
+    - _BUILTIN_ZTest: 4
+    - _BUILTIN_ZWrite: 1
+    - _BUILTIN_ZWriteControl: 0
+    - _Density: 0.7
+    - _Density2: 0.95
+    - _DistortScale: 24.76
+    - _DistortSpeed: 0.98
+    - _DistortStrength: 0.82
+    - _DitherScale: 1
+    - _Power: 0.38
+    - _Rotate_Speed: 0.001
+    - _Smoothness: 0
+    - _Softness: 0.753
+    - _Threshhold: 0.81
+    m_Colors:
+    - _Color: {r: 0.6722, g: 1, b: 0.553, a: 0.18431373}
+    - _Color3: {r: 0.47500002, g: 1, b: 0.6500001, a: 1}
+    - _Color_2: {r: 0.24616216, g: 0.759, b: 0.17436485, a: 1}
+    - _Direction1: {r: 0.1, g: 0, b: 0, a: 0}
+    - _Direction2: {r: -0.04, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &9073727051790272050
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0

@@ -1,0 +1,4 @@
+You can get blueprints for new outfits by <color=#FF5959FF>scanning people</color>.
+Your scanner analyzes their clothings and develops a model for recreating them.
+Once again, you can adjust your Chandroid's <style=Companion>clothing</style> from your <color=yellow>pause menu</color>.
+Take care now.

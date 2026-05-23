@@ -1,0 +1,1 @@
+liminal spaces, abandoned houses on mountainside, abandoned places everywhere, allowing scans to have

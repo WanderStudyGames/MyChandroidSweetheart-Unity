@@ -1,0 +1,1 @@
+select different actions (help, talk, customize, map)

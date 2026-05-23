@@ -1,0 +1,63 @@
+Wavefront OBJ material file
+# Contains 6 materials
+
+newmtl Stone
+Ns 0
+Ka 0.0972549 0.0972549 0.0972549
+Kd 0.486275 0.486275 0.486275
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Bedrock
+Ns 0
+Ka 0.067451 0.067451 0.067451
+Kd 0.337255 0.337255 0.337255
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Oak_Sign
+Ns 0
+Ka 0.129412 0.104314 0.0635294
+Kd 0.647059 0.521569 0.317647
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+
+
+newmtl Slime_Block
+Ns 0
+Ka 0.0941176 0.0941176 0.0941176
+Kd 0.470588 0.470588 0.470588
+Ks 0.0141176 0.0141176 0.0141176
+illum 4
+d 0.7
+Tr 0.3
+Tf 0.670588 0.670588 0.670588
+
+
+newmtl Purpur_Slab
+Ns 0
+Ka 0.13098 0.0964706 0.13098
+Kd 0.654902 0.482353 0.654902
+Ks 0.127706 0.0940588 0.127706
+illum 2
+d 1
+Tr 0
+
+
+newmtl Stone_Stairs
+Ns 0
+Ka 0.0972549 0.0972549 0.0972549
+Kd 0.486275 0.486275 0.486275
+Ks 0 0 0
+illum 2
+d 1
+Tr 0
+

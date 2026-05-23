@@ -1,0 +1,1 @@
+weeb has giant robot spider woman. he needs the tablet to control her. he naruto runs everywhere he goes. old mine is full of spider webs. he carries a berserk sword, but can't use it to attack because it's so heavy. just uses it to cut ropes and spider webs. (trenchcoat and fedora, ponytail, ninja headband once hat falls off)

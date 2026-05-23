@@ -1,0 +1,3 @@
+If you want to open the door to the outside, just have <companionname> put her hands on the terminal. 
+Her software will take care of the rest.
+Need me to repeat that?

@@ -1,0 +1,11 @@
+{
+  "promptDelete": false,
+  "defaultViewMode": "preview",
+  "livePreview": true,
+  "attachmentFolderPath": "./",
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "userIgnoreFilters": null,
+  "readableLineLength": true
+}

@@ -1,0 +1,807 @@
+{
+  "edges": [
+    {
+      "color": "2",
+      "fromNode": "47ab5d143bfd6b75",
+      "fromSide": "bottom",
+      "id": "fd4eb6519922e7dc",
+      "label": "Metal Boots",
+      "toNode": "2b907d93f1fc2b52",
+      "toSide": "top"
+    },
+    {
+      "color": "4",
+      "fromNode": "b6b109b13e006d4c",
+      "fromSide": "bottom",
+      "id": "7712a32dde9298e2",
+      "label": "Pads",
+      "toNode": "c42dd3285b8e7e9e",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b6b109b13e006d4c",
+      "fromSide": "left",
+      "id": "71759750d32c0923",
+      "toNode": "150cbce3203be4ed",
+      "toSide": "right"
+    },
+    {
+      "color": "2",
+      "fromNode": "3e5f5e2b57440af2",
+      "fromSide": "right",
+      "id": "703d9f670752fd6e",
+      "label": "Rewire",
+      "toNode": "a74d75ff1998f7c3",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "b9b51b34bf70df53",
+      "fromSide": "bottom",
+      "id": "c069fcd7434561a2",
+      "toNode": "3e5f5e2b57440af2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b6b109b13e006d4c",
+      "fromSide": "top",
+      "id": "a0db479fb24795a1",
+      "toNode": "b56e69ae7860b1df",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "b6b109b13e006d4c",
+      "fromSide": "right",
+      "id": "d83e749cbd2f2ae7",
+      "toNode": "2f1811b2a3a46945",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a74d75ff1998f7c3",
+      "fromSide": "top",
+      "id": "b3d42674502c94de",
+      "toNode": "b6b109b13e006d4c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6e277fd62fcef14b",
+      "fromSide": "bottom",
+      "id": "3bfee51410c68452",
+      "toNode": "b8ec8357746e8eb7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a2b93dfdeb776718",
+      "fromSide": "left",
+      "id": "4317b6e1ea40277d",
+      "label": "Lobby",
+      "toNode": "89a96d547d53312e",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "d46e19fadc8b325f",
+      "fromSide": "top",
+      "id": "dd5989316a0a1155",
+      "label": "Hallway",
+      "toNode": "a2b93dfdeb776718",
+      "toSide": "right"
+    },
+    {
+      "color": "2",
+      "fromNode": "d46e19fadc8b325f",
+      "fromSide": "top",
+      "id": "e3453ca563bf5a2a",
+      "label": "Chainsaw",
+      "toNode": "5ec583e7d4d43264",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "2f1811b2a3a46945",
+      "fromSide": "bottom",
+      "id": "6bd33f5167907692",
+      "toNode": "47ab5d143bfd6b75",
+      "toSide": "top"
+    },
+    {
+      "color": "2",
+      "fromNode": "2f1811b2a3a46945",
+      "fromSide": "bottom",
+      "id": "03a585b9f979670e",
+      "label": "Bouncy Skirt",
+      "toNode": "06cbdb0441fc583e",
+      "toSide": "right"
+    },
+    {
+      "fromEnd": "arrow",
+      "fromNode": "4df6aad2d51be537",
+      "fromSide": "bottom",
+      "id": "d0d0cfd3438e1d94",
+      "toNode": "2f1811b2a3a46945",
+      "toSide": "left"
+    },
+    {
+      "color": "5",
+      "fromNode": "413c32909eb9f8c0",
+      "fromSide": "bottom",
+      "id": "ad6389e581bb8779",
+      "toNode": "4df6aad2d51be537",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "600c99f6602e65e8",
+      "fromSide": "bottom",
+      "id": "7a794e2274ba4239",
+      "toNode": "130e9f3f45638ccc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4df6aad2d51be537",
+      "fromSide": "bottom",
+      "id": "074cf687e0b1d8de",
+      "toNode": "6e277fd62fcef14b",
+      "toSide": "top"
+    },
+    {
+      "color": "5",
+      "fromNode": "dd5fe519fb3dd99b",
+      "fromSide": "bottom",
+      "id": "df64b6f6262a6d90",
+      "toNode": "ef3028abdc00815e",
+      "toSide": "top"
+    },
+    {
+      "color": "2",
+      "fromNode": "b56e69ae7860b1df",
+      "fromSide": "left",
+      "id": "46fc04323267efc2",
+      "label": "Bouncy Skirt",
+      "styleAttributes": {
+      },
+      "toNode": "b980bccf8fe634e3",
+      "toSide": "right"
+    },
+    {
+      "color": "2",
+      "fromNode": "b56e69ae7860b1df",
+      "fromSide": "right",
+      "id": "32f40f535b23d1ea",
+      "label": "Shoulder Upgrade",
+      "styleAttributes": {
+      },
+      "toNode": "67a15217a4d5495f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b56e69ae7860b1df",
+      "fromSide": "top",
+      "id": "9603d78c453fb6fb",
+      "styleAttributes": {
+      },
+      "toNode": "d0f25665e22dfbe6",
+      "toSide": "bottom"
+    }
+  ],
+  "metadata": {
+  },
+  "nodes": [
+    {
+      "color": "#feee9f",
+      "height": 3740,
+      "id": "a7991b43e3f805a9",
+      "label": "DEMO",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 3325,
+      "x": -1450,
+      "y": -1416
+    },
+    {
+      "color": "#4f5570",
+      "height": 600,
+      "id": "2b907d93f1fc2b52",
+      "label": "Abandoned Mall Ext",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 560,
+      "x": 795,
+      "y": 1334
+    },
+    {
+      "color": "#5fbfbf",
+      "height": 661,
+      "id": "c42dd3285b8e7e9e",
+      "label": ".",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 508,
+      "x": -229,
+      "y": -37
+    },
+    {
+      "color": "#5fbfbf",
+      "height": 520,
+      "id": "150cbce3203be4ed",
+      "label": ".",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 567,
+      "x": -1090,
+      "y": -716
+    },
+    {
+      "color": "#5fbfbf",
+      "height": 508,
+      "id": "3e5f5e2b57440af2",
+      "label": "Maid Bot Factory",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 565,
+      "x": -1310,
+      "y": -3
+    },
+    {
+      "color": "#5fbfbf",
+      "height": 520,
+      "id": "b6b109b13e006d4c",
+      "label": ".",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 508,
+      "x": -94,
+      "y": -716
+    },
+    {
+      "color": "#4f5570",
+      "height": 420,
+      "id": "def89f05961ef77c",
+      "label": "Abandoned Mall Int",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 480,
+      "x": 835,
+      "y": 1484
+    },
+    {
+      "color": "#5fbfbf",
+      "height": 340,
+      "id": "b8ec8357746e8eb7",
+      "label": ".",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 508,
+      "x": -229,
+      "y": 724
+    },
+    {
+      "color": "#5fbfbf",
+      "height": 400,
+      "id": "a2b93dfdeb776718",
+      "label": "Rooftop",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 400,
+      "x": 643,
+      "y": -1276
+    },
+    {
+      "color": "#5fbfbf",
+      "height": 400,
+      "id": "d46e19fadc8b325f",
+      "label": "Apartment",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 400,
+      "x": 1255,
+      "y": -1276
+    },
+    {
+      "height": 400,
+      "id": "5ec583e7d4d43264",
+      "label": "Dance Club",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 400,
+      "x": 1630,
+      "y": -2323
+    },
+    {
+      "color": "#4f5570",
+      "height": 340,
+      "id": "47ab5d143bfd6b75",
+      "label": ".",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 400,
+      "x": 875,
+      "y": 804
+    },
+    {
+      "height": 320,
+      "id": "2f1811b2a3a46945",
+      "label": "Bridge",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 400,
+      "x": 875,
+      "y": 19
+    },
+    {
+      "color": "#5fbfbf",
+      "height": 180,
+      "id": "b56e69ae7860b1df",
+      "label": ".",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 634,
+      "x": -220,
+      "y": -1366
+    },
+    {
+      "color": "1",
+      "height": 243,
+      "id": "0351b8400aca3b70",
+      "label": "Dragon",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 372,
+      "x": 875,
+      "y": 1644
+    },
+    {
+      "height": 206,
+      "id": "466c2cb01fb10dd1",
+      "label": "Shop",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 304,
+      "x": -53,
+      "y": -3
+    },
+    {
+      "color": "#325130",
+      "height": 170,
+      "id": "06cbdb0441fc583e",
+      "label": "Sewer Entrance",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 320,
+      "x": 483,
+      "y": 454
+    },
+    {
+      "file": "Highway.canvas",
+      "height": 400,
+      "id": "b980bccf8fe634e3",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1940,
+      "y": -1400
+    },
+    {
+      "height": 60,
+      "id": "b306541a46186717",
+      "styleAttributes": {
+      },
+      "text": "Rental Car",
+      "type": "text",
+      "width": 250,
+      "x": -1865,
+      "y": -1516
+    },
+    {
+      "file": "Level Docs/Lift Intro Area.md",
+      "height": 137,
+      "id": "42d7a5d4d515ccb9",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 232,
+      "x": -1077,
+      "y": -694
+    },
+    {
+      "file": "Map.canvas",
+      "height": 400,
+      "id": "9454da8aae7c40f9",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1310,
+      "y": -2240
+    },
+    {
+      "height": 50,
+      "id": "e773f3a560a03e3f",
+      "styleAttributes": {
+      },
+      "text": "Playground?",
+      "type": "text",
+      "width": 250,
+      "x": -210,
+      "y": 764
+    },
+    {
+      "height": 60,
+      "id": "d0f25665e22dfbe6",
+      "styleAttributes": {
+      },
+      "text": "to sewer",
+      "type": "text",
+      "width": 260,
+      "x": 0,
+      "y": -1680
+    },
+    {
+      "color": "4",
+      "height": 54,
+      "id": "ddba4e6676589c7a",
+      "styleAttributes": {
+      },
+      "text": "Pad Intro",
+      "type": "text",
+      "width": 183,
+      "x": 660,
+      "y": -1056
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "600c99f6602e65e8",
+      "styleAttributes": {
+      },
+      "text": "Vantage Point Intermediate",
+      "type": "text",
+      "width": 360,
+      "x": -210,
+      "y": 864
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "524bed253757fe6b",
+      "styleAttributes": {
+      },
+      "text": "Chivalry",
+      "type": "text",
+      "width": 167,
+      "x": -17,
+      "y": 23
+    },
+    {
+      "color": "2",
+      "height": 80,
+      "id": "b9c2c120ca668cd1",
+      "styleAttributes": {
+      },
+      "text": "[[Quantum Traveling Device]]",
+      "type": "text",
+      "width": 250,
+      "x": -17,
+      "y": 99
+    },
+    {
+      "color": "2",
+      "height": 54,
+      "id": "130e9f3f45638ccc",
+      "styleAttributes": {
+      },
+      "text": "[[Metal Boots]]",
+      "type": "text",
+      "width": 219,
+      "x": 25,
+      "y": 974
+    },
+    {
+      "color": "3",
+      "height": 81,
+      "id": "4df6aad2d51be537",
+      "styleAttributes": {
+      },
+      "text": "Lowered water level",
+      "type": "text",
+      "width": 250,
+      "x": -183,
+      "y": 294
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "6e277fd62fcef14b",
+      "styleAttributes": {
+      },
+      "text": "Dog Pad Intro",
+      "type": "text",
+      "width": 250,
+      "x": -183,
+      "y": 474
+    },
+    {
+      "height": 60,
+      "id": "bb09bf7a80764914",
+      "styleAttributes": {
+      },
+      "text": "Start",
+      "type": "text",
+      "width": 120,
+      "x": 1296,
+      "y": -976
+    },
+    {
+      "color": "3",
+      "height": 54,
+      "id": "04ebd2a488045d17",
+      "styleAttributes": {
+      },
+      "text": "Movement/Interact",
+      "type": "text",
+      "width": 279,
+      "x": 1291,
+      "y": -1056
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "7070d1ac2c9bd53a",
+      "styleAttributes": {
+      },
+      "text": "Commands Intro",
+      "type": "text",
+      "width": 250,
+      "x": 1291,
+      "y": -1176
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "14f4b769d7d019c1",
+      "styleAttributes": {
+      },
+      "text": "Boardfall :)",
+      "type": "text",
+      "width": 200,
+      "x": 820,
+      "y": -1206
+    },
+    {
+      "height": 60,
+      "id": "67a15217a4d5495f",
+      "styleAttributes": {
+      },
+      "text": "to beach",
+      "type": "text",
+      "width": 260,
+      "x": 700,
+      "y": -1600
+    },
+    {
+      "height": 50,
+      "id": "89a96d547d53312e",
+      "styleAttributes": {
+      },
+      "text": "Apartment Building",
+      "type": "text",
+      "width": 280,
+      "x": 118,
+      "y": -696
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "78c3af87a5cefc5a",
+      "styleAttributes": {
+      },
+      "text": "Vantage Point Easy",
+      "type": "text",
+      "width": 315,
+      "x": 8,
+      "y": -596
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "a64cdd35ab33e416",
+      "styleAttributes": {
+      },
+      "text": "Power goes off",
+      "type": "text",
+      "width": 250,
+      "x": 8,
+      "y": -506
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "903edee98d04806c",
+      "styleAttributes": {
+      },
+      "text": "Rewire Around Corner",
+      "type": "text",
+      "width": 300,
+      "x": 908,
+      "y": 1524
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "63e97574988d19be",
+      "styleAttributes": {
+      },
+      "text": "Lifts Intro",
+      "type": "text",
+      "width": 250,
+      "x": -1035,
+      "y": -516
+    },
+    {
+      "file": "Ideas/Areas/Maid Factory.md",
+      "height": 107,
+      "id": "1c4a566e5d874f23",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 503,
+      "x": -1286,
+      "y": 36
+    },
+    {
+      "color": "5",
+      "height": 50,
+      "id": "dd5fe519fb3dd99b",
+      "styleAttributes": {
+      },
+      "text": "puzzle3",
+      "type": "text",
+      "width": 360,
+      "x": -1208,
+      "y": 186
+    },
+    {
+      "color": "2",
+      "height": 60,
+      "id": "ef3028abdc00815e",
+      "styleAttributes": {
+      },
+      "text": "[[Rewire]]",
+      "type": "text",
+      "width": 140,
+      "x": -1278,
+      "y": 349
+    },
+    {
+      "height": 60,
+      "id": "b9b51b34bf70df53",
+      "styleAttributes": {
+      },
+      "text": "Drop-Down",
+      "type": "text",
+      "width": 210,
+      "x": -928,
+      "y": -416
+    },
+    {
+      "color": "5",
+      "height": 90,
+      "id": "33f050694546be33",
+      "styleAttributes": {
+      },
+      "text": "Memory Like an Elephant",
+      "type": "text",
+      "width": 250,
+      "x": -802,
+      "y": -626
+    },
+    {
+      "color": "5",
+      "height": 68,
+      "id": "5fafa309b757959b",
+      "styleAttributes": {
+      },
+      "text": "Rewire Difficult",
+      "type": "text",
+      "width": 250,
+      "x": 928,
+      "y": 1676
+    },
+    {
+      "color": "2",
+      "height": 80,
+      "id": "3368d7f939cfdff1",
+      "styleAttributes": {
+      },
+      "text": "[[Bouncy Skirt]]",
+      "type": "text",
+      "width": 208,
+      "x": 907,
+      "y": 1764
+    },
+    {
+      "height": 100,
+      "id": "c96483787c2a19e2",
+      "styleAttributes": {
+      },
+      "text": "Thanks for playing the demo",
+      "type": "text",
+      "width": 250,
+      "x": 523,
+      "y": 500
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "6c088264d98ebfc0",
+      "styleAttributes": {
+      },
+      "text": "Dog Intro",
+      "type": "text",
+      "width": 250,
+      "x": 958,
+      "y": 864
+    },
+    {
+      "color": "4",
+      "height": 50,
+      "id": "3c9677e990f35a57",
+      "styleAttributes": {
+      },
+      "text": "Rewire Intermediate",
+      "type": "text",
+      "width": 307,
+      "x": 1011,
+      "y": 1374
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "413c32909eb9f8c0",
+      "styleAttributes": {
+      },
+      "text": "Rewire Easy",
+      "type": "text",
+      "width": 250,
+      "x": 942,
+      "y": 99
+    },
+    {
+      "height": 100,
+      "id": "927a89956cd23282",
+      "styleAttributes": {
+      },
+      "text": "Medieval battery aesthetic",
+      "type": "text",
+      "width": 250,
+      "x": 1178,
+      "y": 1964
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "a74d75ff1998f7c3",
+      "styleAttributes": {
+      },
+      "text": "Pad Timing",
+      "type": "text",
+      "width": 185,
+      "x": -737,
+      "y": -301
+    }
+  ]
+}

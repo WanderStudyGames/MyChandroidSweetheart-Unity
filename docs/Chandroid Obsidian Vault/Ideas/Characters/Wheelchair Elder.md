@@ -1,0 +1,1 @@
+character in highway entrance porch, confuses chandroid for an automaton, apologizes profusely when told she's a person

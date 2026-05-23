@@ -1,0 +1,2 @@
+Help button
+Wired to the intercom system, these help buttons trigger a notification in NuLove's office, prompting him to give you some help.

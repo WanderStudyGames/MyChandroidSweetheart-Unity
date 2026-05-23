@@ -1,0 +1,5 @@
+Record at screen resolution,
+resize to 616x346,
+add border: 28 on each side, 16 top and bottom
+resize again to 616x346,
+add overlay image

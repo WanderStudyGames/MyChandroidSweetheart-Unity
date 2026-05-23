@@ -1,0 +1,154 @@
+{
+  "edges": [
+    {
+      "fromNode": "fcb19dc6deac13f6",
+      "fromSide": "right",
+      "id": "0f97c65590c70cbe",
+      "styleAttributes": {
+      },
+      "toNode": "798823d52db6ed3b",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 480,
+      "id": "fcb19dc6deac13f6",
+      "label": "Beach",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 480,
+      "x": 120,
+      "y": -60
+    },
+    {
+      "color": "1",
+      "height": 480,
+      "id": "798823d52db6ed3b",
+      "label": "Octopus Robot",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 440,
+      "x": 1220,
+      "y": -60
+    },
+    {
+      "height": 60,
+      "id": "dd5fd8c66d5f885a",
+      "styleAttributes": {
+      },
+      "text": "to city",
+      "type": "text",
+      "width": 260,
+      "x": -340,
+      "y": -200
+    },
+    {
+      "height": 60,
+      "id": "47b5f16fa373fa20",
+      "styleAttributes": {
+      },
+      "text": "[[Breathing Device]]",
+      "type": "text",
+      "width": 360,
+      "x": 1260,
+      "y": -20
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "6bdacf187b1849aa",
+      "styleAttributes": {
+      },
+      "text": "Puzzle water level advanced",
+      "type": "text",
+      "width": 380,
+      "x": 1180,
+      "y": -440
+    },
+    {
+      "height": 140,
+      "id": "6d30e09efd43971d",
+      "styleAttributes": {
+      },
+      "text": "[[Shoulder Upgrade]]\n[[Chainsaw]]\n[[Floaties]]",
+      "type": "text",
+      "width": 400,
+      "x": 1180,
+      "y": -320
+    },
+    {
+      "color": "5",
+      "height": 60,
+      "id": "331b11238117c0b5",
+      "styleAttributes": {
+      },
+      "text": "",
+      "type": "text",
+      "width": 260,
+      "x": 320,
+      "y": -350
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "6e0e61df2d80a1c7",
+      "styleAttributes": {
+      },
+      "text": "",
+      "type": "text",
+      "width": 260,
+      "x": 260,
+      "y": -20
+    },
+    {
+      "height": 640,
+      "id": "06dba4dc8ee21d61",
+      "styleAttributes": {
+      },
+      "text": "What do we want?\n- hot girls\n- fun confections\n- boardwalk\n- ferris wheel\n- swimmers\n- water\n- boats\n- buoys\n\nPlayer should feel less pressured and more relaxed",
+      "type": "text",
+      "width": 920,
+      "x": 60,
+      "y": -1640
+    },
+    {
+      "height": 250,
+      "id": "8da0c513bd5275a2",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "shipwreck 64 reference\nhave a beaver, otter, goose, rabbit, walrus, and wolf around",
+      "type": "text",
+      "width": 260,
+      "x": -290,
+      "y": -1220
+    },
+    {
+      "height": 140,
+      "id": "19692ee956cc7183",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "Beach could be small since it has less significance",
+      "type": "text",
+      "width": 360,
+      "x": -390,
+      "y": -1390
+    },
+    {
+      "height": 220,
+      "id": "33d47f72d1ccf57e",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "Player goes to remote part of beach, hears dialogue\n\"Wait, I hear someone coming.\"\nPlayer turns corner to see a couple underneath a blanket, waving hello.",
+      "type": "text",
+      "width": 480,
+      "x": 40,
+      "y": -920
+    }
+  ]
+}

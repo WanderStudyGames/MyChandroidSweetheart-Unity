@@ -1,0 +1,8 @@
+<color=yellow>Doctor Henry Nulove</color>
+Founder of NuLove Companion Clinic, third party Chandroid assembly.
+Doctor NuLove went to college for computer science and engineering. 
+Initially pursuing a job at HoverTek, NuLove found little success. Thus, he turned his efforts to helping the common man. 
+After a number of failed business ventures, NuLove was ready to give up.
+But he noticed a discrepancy in the Chandroid market. Buyers were either stuck with proprietary Chandroids from the major manufacturers, or left to figure out how to assemble one themselves. 
+This became the driving motivation for Nulove's Companion Clinic.
+"Love is simple, love is personal" was their slogan, and it stuck.

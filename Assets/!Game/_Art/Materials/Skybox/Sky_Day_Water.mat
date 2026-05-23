@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6262750257634421578
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sky_Day_Water
+  m_Shader: {fileID: -6465566751694194690, guid: d7ad4b5ef2a08354ea2ba4c67be5be46, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2501
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BackTex:
+        m_Texture: {fileID: 2800000, guid: 4badd2a2f63c63342900c29ed5f69ff3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Bottom:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Center:
+        m_Texture: {fileID: 2800000, guid: 4badd2a2f63c63342900c29ed5f69ff3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DownTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrontTex:
+        m_Texture: {fileID: 2800000, guid: 4badd2a2f63c63342900c29ed5f69ff3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeftTex:
+        m_Texture: {fileID: 2800000, guid: 4badd2a2f63c63342900c29ed5f69ff3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Middle:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTex:
+        m_Texture: {fileID: 2800000, guid: 4badd2a2f63c63342900c29ed5f69ff3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_43f75feaa9f547048fa36ae1bb8cf2fe_Texture_1:
+        m_Texture: {fileID: 2800000, guid: a77d935345304b54389f1b15945ca090, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ae819a6cf5ab4a38a88d5f2f60ea0291_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 4badd2a2f63c63342900c29ed5f69ff3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_bc3516101a714502871117a030092529_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 330da4a452a1e664786e495bb0c24626, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex:
+        m_Texture: {fileID: 8900000, guid: 237a731544d85574abc4fdd1d617d4b8, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DPlus_50bd36f6b02a4e2a88df67e22d30d9f8_NormalMap_3883515543:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DPlus_5c9a4c7d2eef41199905d49d4a05b31c_NormalMap_3883515543:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DPlus_c58089f9f7734f8fb6b1a37793e1f67b_NormalMap_3883515543:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Top:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Top_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UpTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AtmosphereThickness: 1
+    - _BUILTIN_AlphaClip: 0
+    - _BUILTIN_Blend: 0
+    - _BUILTIN_CullMode: 2
+    - _BUILTIN_DstBlend: 0
+    - _BUILTIN_QueueControl: 1
+    - _BUILTIN_QueueOffset: 0
+    - _BUILTIN_SrcBlend: 1
+    - _BUILTIN_Surface: 0
+    - _BUILTIN_ZTest: 4
+    - _BUILTIN_ZWrite: 1
+    - _BUILTIN_ZWriteControl: 0
+    - _Bottom_Smoothness: 0.19
+    - _Bottom_Threshhold: -0.84
+    - _Exposure: 0.5
+    - _Float: 0
+    - _Rotation: 0
+    - _SunDisk: 2
+    - _SunSize: 0.04
+    - _SunSizeConvergence: 5
+    - _Top: 0.18
+    - _Top_Offset: 1.46
+    - _Top_Smoothness: 1
+    m_Colors:
+    - _Bottom_Color: {r: 0, g: 0.17078434, b: 0.7882353, a: 0}
+    - _Color: {r: 0.6745098, g: 0.7372549, b: 0.7647059, a: 1}
+    - _GroundColor: {r: 0.8045248, g: 0.8813614, b: 0.91300005, a: 1}
+    - _Lower_Middle_Color: {r: 0, g: 0.564902, b: 0.7882353, a: 0}
+    - _SkyTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _Top_Color: {r: 0.39, g: 0.6510922, b: 1, a: 0}
+    - _Upper_Middle_Color: {r: 0.525, g: 0.8007301, b: 1, a: 0}
+    - _Vector3: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

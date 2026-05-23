@@ -1,0 +1,13 @@
+- shadow colors
+- textures
+- skin color, eye color, hair color
+- skin texture choice between several robotic textures, or custom
+- accessory colors and textures
+- custom accessory models
+- layered textures with colors
+- blinking eyes texture
+- breast size
+- body type (even custom model)
+- animation style (weak, strong, dainty, boarish)
+- voice?
+- relative size

@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PlayerMovementProfile
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: da0b167f077e37c4aa40dc945fc93ffc, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: accelerationGround
+    value: 3.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: accelerationAir
+    value: 0.6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sprintSpeed
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSpeedMultiplier
+    value: 0.75
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: maxAcc
+    value: 3.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: friction
+    value: 0.35
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gravity
+    value: 0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: jumpForce
+    value: 0.08
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: jumpFalloffMultiplier
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: concreteStepSFX
+    value: 
+    objectReference: {fileID: 11400000, guid: 1eda6cccd5fec284ca25ac943ad8170e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: concreteLandSFX
+    value: 
+    objectReference: {fileID: 11400000, guid: 5d671acb28658dd4ea4fb0c9dd0ab70f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: concreteJumpSFX
+    value: 
+    objectReference: {fileID: 11400000, guid: a3f61c0c556fc7f40a820b758d290ea3, type: 2}
+  - target: {fileID: 0}
+    propertyPath: swimSFX
+    value: 
+    objectReference: {fileID: 11400000, guid: aed066372d543ef4ba7c1b1ce1dc94ee, type: 2}
+  - target: {fileID: 0}
+    propertyPath: splashSFX
+    value: 
+    objectReference: {fileID: 11400000, guid: 79b74fa2047b6564a9b291a0a3021c2a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: fallingSFX
+    value: 
+    objectReference: {fileID: 11400000, guid: 49c9d06a3ffad024bad523d948309c97, type: 2}
+  - target: {fileID: 0}
+    propertyPath: OnEnterWaterGE
+    value: 
+    objectReference: {fileID: 11400000, guid: 269bd1edea5826046816b78d02bccb86, type: 2}
+  - target: {fileID: 0}
+    propertyPath: OnExitWaterGE
+    value: 
+    objectReference: {fileID: 11400000, guid: 183a5a5c5a441dd42b49f76baaf1d6b3, type: 2}
+  - target: {fileID: 0}
+    propertyPath: stepDistance
+    value: 1.8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimStrokeDistance
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[0].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[0].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[0].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[0].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[0].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[0].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[1].time
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[1].value
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[1].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[1].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[1].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[1].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[2].time
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[2].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[2].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[2].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[2].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[2].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_Curve.Array.data[2].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraAnimCurve.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[0].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[0].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[0].inSlope
+    value: 0.43492162
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[0].outSlope
+    value: 0.43492162
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[0].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[0].outWeight
+    value: 0.054227944
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[1].time
+    value: 0.6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[1].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[1].inSlope
+    value: 2.8187544
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[1].outSlope
+    value: 2.8187544
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[1].inWeight
+    value: 0.040441155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_Curve.Array.data[1].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fallingVolumeAnimCurve.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: groundLayers.m_Bits
+    value: 209
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

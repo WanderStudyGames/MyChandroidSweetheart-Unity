@@ -1,0 +1,5 @@
+newmtl Mat_Bark
+map_Kd -o 0 0 -s 0.5 0.5 wood2.png
+Kd 1 1 1
+d 1
+

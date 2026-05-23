@@ -1,0 +1,1 @@
+monobehaviour referenced by scenestartup, which checks a scriptable object for "doSpawn" bool

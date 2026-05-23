@@ -1,0 +1,1 @@
+Emits HTTP request to Chandroid API for nano-scale reassembly.

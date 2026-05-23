@@ -1,0 +1,10 @@
+newmtl Mat_Chrome_Cartoon_Seam
+map_Kd -o 0 0 -s 0.25 0.25 WhiteSeam.png
+Kd 0.5807696 0.5807696 0.603
+d 1
+
+newmtl WhiteSeam
+map_Kd -o 0 0 -s 0.25 0.25 WhiteSeam.png
+Kd 0.9976667 0.965 1
+d 1
+

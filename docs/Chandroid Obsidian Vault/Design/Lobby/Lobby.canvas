@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"c9b9bc0ed51d336e","type":"file","file":"Design/Lobby/Pasted image 20240507071558.png","x":-700,"y":-480,"width":400,"height":293},
+		{"id":"e33451b1f1a0e316","type":"file","file":"Design/Lobby/Pasted image 20240507071615.png","x":-260,"y":-487,"width":400,"height":300},
+		{"id":"c0f6a28d3fb7302f","type":"file","file":"Design/Lobby/Pasted image 20240507071702.png","x":200,"y":-487,"width":800,"height":300},
+		{"id":"07eef3ebe99867a5","type":"file","file":"Design/Lobby/Pasted image 20240507071752.png","x":-700,"y":-160,"width":400,"height":300},
+		{"id":"40624a1f207521af","type":"text","text":"- [ ] brochure cabinet\n- [x] coffee machine table unit\n- [x] file drawers\n- [ ] chandelier\n- [ ] water fountain\n- [ ] computer\n- [ ] logo/title on back wall\n- [ ] arcade machine?","x":-260,"y":-160,"width":400,"height":400},
+		{"id":"8e06b137d5445200","type":"text","text":"Abstract art:\n- [x] female\n- [x] circuitry\n- [ ] electricity\n- [x] fireplace\n- [ ] plants\n- [ ] books\n- [ ] sky","x":200,"y":-70,"width":360,"height":370}
+	],
+	"edges":[]
+}

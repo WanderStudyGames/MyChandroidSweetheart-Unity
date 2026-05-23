@@ -1,0 +1,3 @@
+<color=#3FAFFF>Doctor's Note</color>
+Chandroid facial expression modification is a success. However, the extremity of movement needs to be more subtle.
+I couldn't go to sleep last night after seeing the test bot's angry face.

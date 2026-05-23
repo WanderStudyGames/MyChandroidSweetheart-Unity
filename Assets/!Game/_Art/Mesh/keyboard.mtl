@@ -1,0 +1,10 @@
+newmtl Mat_White_Seam
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/Toon/white_seam.png
+Kd 0.9976667 0.965 1
+d 1
+
+newmtl Mat_BlackGrate
+map_Kd E:/@pc_backup/timdeuces_unity_projects/MyChandroidSweetheart/Assets/!Game/_Art/Textures/Tiled/chainlink_fence.png
+Kd 0.8705882 0.8705882 0.8705882
+d 1
+

@@ -1,0 +1,5 @@
+* steam qr code
+* itch.io qr code
+* x handle
+* youtube handle
+* discord qr code

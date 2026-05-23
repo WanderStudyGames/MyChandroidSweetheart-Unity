@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f429028273accec4583156884ced6fb6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - sceneHandler: {fileID: 11400000, guid: dcad47f93c6b8664da977edb88c4b18e, type: 2}
+  - playerManager: {fileID: 11400000, guid: e4c16b59c6df01347a0ffa2ba53f64a0, type: 2}
+  - uiManager: {fileID: 11400000, guid: b8d518ea33b9c524b93fb553818fa6ad, type: 2}
+  - sceneToLoad: {instanceID: 0}
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: cdfd24bf0ea11ff40b17b47dae6cc7e3, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

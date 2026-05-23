@@ -1,0 +1,1 @@
+<sprite=6 tint> <color=yellow>Launch grapple at targets</color>

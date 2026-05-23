@@ -1,0 +1,1 @@
+Displays <companionname>'s vital signs whenever she's connected to the charger.

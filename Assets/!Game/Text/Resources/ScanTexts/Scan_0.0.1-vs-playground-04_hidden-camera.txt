@@ -1,0 +1,3 @@
+Hidden camera preview monitor
+Display feed shows a view which looks down from the top of the test chamber. 
+There is a platform at the top of this room.

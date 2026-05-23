@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e7bd77120b23cee4c83a90f810f76249
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - textAsset: {instanceID: 0}
+  - scanMaterialsSO: {fileID: 11400000, guid: f53c651a7750be244bbce8ff6ed001e7, type: 2}
+  - onScannerEnableGE: {fileID: 11400000, guid: 75525a9b2df81f64098d45ca004858fe, type: 2}
+  - onScannerDisableGE: {fileID: 11400000, guid: 77b0180c4db3ab5428c969008fd4d07c, type: 2}
+  - OnLeaveScanGE: {fileID: 11400000, guid: 01d74fc2c33d91549868b5643aaef92a, type: 2}
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: f0c9f8d7814ec994bbe5b775694fb0a0, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
