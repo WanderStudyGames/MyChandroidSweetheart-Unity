@@ -1,5 +1,0 @@
-newmtl Mat_Concrete_Seam_1
-map_Kd -o 0 0 -s 0.2 0.2 concrete_seam.png
-Kd 1.0 1.0 1.0
-d 1.0
-
