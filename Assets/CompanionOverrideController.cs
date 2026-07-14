@@ -60,7 +60,7 @@ public class CompanionOverrideController : MonoBehaviour
     }
     private void OnFidget()
     {
-        if (isReacting) return;
+        if (isReacting || CompanionManager.CompanionCarryingObject) return;
         var clip = _fidgetAnims[UnityEngine.Random.Range(0, _fidgetAnims.Length)];
         _animatorOverrideController["Anim_C_Fidget_Look"] = clip;
         _animator.SetTrigger("Fidget");

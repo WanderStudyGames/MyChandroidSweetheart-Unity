@@ -134,15 +134,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Doing Stuff 2.canvas",
+                "file": "2.canvas",
                 "viewState": {
-                  "x": 6562.34979897808,
-                  "y": -1113.257027511847,
-                  "zoom": -0.6999999999999978
+                  "x": 18060.189974299083,
+                  "y": -4556.974918290685,
+                  "zoom": -0.8999999999999849
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Doing Stuff 2"
+              "title": "2"
             }
           }
         ],
@@ -318,16 +318,17 @@
   },
   "active": "34dc45f577d23bae",
   "lastOpenFiles": [
+    "Doing Stuff.canvas",
+    "tasks/Save point love seats.md",
+    "Map 1 Puzzles.canvas",
+    "2.canvas",
     "Game Dev Studio/WanderStudy Games.md",
     "Game Dev Studio/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
-    "Doing Stuff 2.canvas",
-    "Map 1 Puzzles.canvas",
     "tasks/To Do List.md",
     "Scratchpad.canvas",
     "Ideas/Decorations.md",
     "Ideas/Liminal Spaces.md",
     "Ideas/Bosses/Octopus.md",
-    "tasks/Save point love seats.md",
     "tasks/Action Log.md",
     "tasks/Puzzle Stats Console.md",
     "tasks/Chandroid Snatcher.md",
@@ -356,7 +357,6 @@
     "Ideas/Bosses/Pasted image 20240128065509.png",
     "Pasted image 20260403102404.png",
     "Pasted image 20260403102305.png",
-    "Doing Stuff.canvas",
     "mood boards/club.17524.pur-journal",
     "mood boards/club.17524.pur",
     "Narrative.canvas",

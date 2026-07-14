@@ -1,4 +1,5 @@
 using UnityEngine;
+
 [RequireComponent(typeof(Collider))]
 public class RewireTarget : MonoBehaviour, IScannerSelectable
 {
@@ -50,7 +51,7 @@ public class RewireTarget : MonoBehaviour, IScannerSelectable
     {
         if (PlayerStateManager.State != PlayerStates.Rewiring) return;
         RewiringPlayerState.Rewire.Link(_signalInput);
-        PlayerStateManager.SwitchState(PlayerStates.Scanner);
+        PlayerStateManager.SwitchState(PlayerStates.Default);
     }
 
     public void UnClick()

@@ -1,5 +1,7 @@
 using System;
+
 using UnityEditor;
+
 using UnityEngine;
 
 public class PowerStateMachineController : MonoBehaviour
@@ -29,7 +31,7 @@ public class PowerStateMachineController : MonoBehaviour
         bool power = WorldData.WorldFlags.Has(_powerStateString);
         bool puzzle = WorldData.SceneBools.Has(_puzzleScene.SceneName);
 
-        if (power) { SetState(PowerState.Powered); }
+        if (puzzle) { SetState(PowerState.Powered); }
         else
         {
             if (puzzle) { SetState(PowerState.Active); }

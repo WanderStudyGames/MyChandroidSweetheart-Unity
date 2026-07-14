@@ -134,8 +134,6 @@ public class CharacterControllerMove : MonoBehaviour
         //constant downward force when grounded
         _velocity.y = ResetOnVerticalCollision(_velocity.y);
 
-        Debug.Log("WALK: " + walkVector.magnitude);
-
         //apply friction
         if (IsGrounded || _airControl)
         {

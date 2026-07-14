@@ -1,11 +1,12 @@
+using System;
+
 using UnityEngine;
 using UnityEngine.InputSystem;
-
 
 [RequireComponent(typeof(PlayerLook))]
 [RequireComponent(typeof(PlayerInput))]
 [RequireComponent(typeof(PlayerStateManager))]
-public class Scanner : PlayerComponent
+public class Scanner : PlayerComponent, ILookSelectorListener
 {
 
     [SerializeField] private ScannerProfile scannerProfile;
@@ -13,7 +14,7 @@ public class Scanner : PlayerComponent
     [SerializeField] private InputActionReference _switchMode;
     private PlayerInput _playerInput;
     private IScannerSelectable _scanObject;
-    private Camera _camera;
+    private PlayerLookSelector _playerLookSelector;
     public override void SetComponentProfile(ComponentProfile profile)
     {
         scannerProfile = (ScannerProfile)profile;
@@ -25,10 +26,12 @@ public class Scanner : PlayerComponent
 
     private void OnEnable()
     {
-        _playerInput.actions.Link("Glasses", OnOverlayToggleInput);
+        //_playerInput.actions.Link("Glasses", OnOverlayToggleInput);
 
         instance = this;
-
+        PlayerLookSelector.SecondaryInputListenerList.AddListener(this);
+        _playerLookSelector.OnTriggerHit += OnRaycastTrigger;
+        Debug.Assert(_playerLookSelector != null);
         Dialogue.OnCharacterSpeak += SwitchToDefault;
         SwitchToDefault();
     }
@@ -37,7 +40,8 @@ public class Scanner : PlayerComponent
         _playerInput.actions.UnLink("Glasses", OnOverlayToggleInput);
 
         instance = null;
-
+        PlayerLookSelector.SecondaryInputListenerList.RemoveListener(this);
+        _playerLookSelector.OnTriggerHit -= OnRaycastTrigger;
         Dialogue.OnCharacterSpeak -= SwitchToDefault;
     }
     private void OnDestroy()
@@ -49,7 +53,8 @@ public class Scanner : PlayerComponent
     {
         audioSource = gameObject.AddComponent<AudioSource>();
         _playerInput = GetComponent<PlayerInput>();
-        _camera = GetComponent<PlayerLook>().GetCamera();
+        _playerLookSelector = GetComponent<PlayerLookSelector>();
+        // _camera = GetComponent<PlayerLook>().GetCamera();
     }
     public void OnOverlayToggleInput(InputAction.CallbackContext ctx)
     {
@@ -78,5 +83,48 @@ public class Scanner : PlayerComponent
         if (PlayerStateManager.State == PlayerStates.Scanner)
             PlayerStateManager.SwitchState(PlayerStates.Default);
         PostProcProfileController.ResetProfile();
+    }
+    public void OnRaycastTrigger(RaycastHit hit)
+    {
+        if (hit.TryGetComponent(out IScannerSelectable iss, layerMask: scannerProfile.LayerMask) && iss.Enabled)
+        {
+            if (_scanObject != iss)
+            {
+                Select(iss);
+            }
+        }
+        else if (_scanObject != null)
+        {
+            _scanObject.Deselect();
+            Select(null);
+        }
+    }
+    private void Select(IScannerSelectable scanObject)
+    {
+        if (_scanObject != null)
+        {
+            _scanObject.UnClick();
+            if (scanObject != null)
+                _scanObject.Deselect();
+        }
+        _scanObject = scanObject;
+        if (scanObject == null)
+        {
+            OnStopHover?.Invoke();
+            _scanObject = null;
+        }
+        else if (scanObject.Select())
+        {
+            OnHover?.Invoke(scanObject.Icon);
+        }
+    }
+    public event Action<Sprite> OnHover;
+    public event Action OnStopHover;
+    public bool ValidateInputAction() => _scanObject != null;
+    public void OnInputAction(InputAction.CallbackContext ctx)
+    {
+        if (_scanObject == null) return;
+        if (ctx.performed) { _scanObject.Click(); }
+        if (ctx.action.WasReleasedThisFrame()) { _scanObject.UnClick(); }
     }
 }

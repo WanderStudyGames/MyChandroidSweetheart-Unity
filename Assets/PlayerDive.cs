@@ -1,4 +1,5 @@
 using System.Collections;
+
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -10,6 +11,13 @@ public class PlayerDive : MonoBehaviour
     [SerializeField] private LayerMask _floorLayerMask;
     [SerializeField] private float _bouyancyAcceleration = 3f;
     [SerializeField] private UnityEvent _onSurface;
+    [SerializeField] private Collider _collider;
+    private static PlayerDive _instance;
+    public static void Stop()
+    {
+        _instance.StopAllCoroutines();
+        _instance.enabled = false;
+    }
     private Vector3 _initialLocalPosition;
     private void Awake()
     {
@@ -19,6 +27,7 @@ public class PlayerDive : MonoBehaviour
     {
         PlayerJump.OnLandWater += Dive;
         PlayerStates.Tablet.OnStateEnableEvent += OnTabletEnable;
+        _instance = this;
     }
     private void OnTabletEnable()
     {
@@ -46,6 +55,7 @@ public class PlayerDive : MonoBehaviour
         IEnumerator Co_Dive()
         {
             Debug.Log(transform.localPosition.y + ", " + _initialLocalPosition.y);
+            _collider.enabled = true;
             while (transform.localPosition.y < _initialLocalPosition.y)
             {
                 velocity += _bouyancyAcceleration * Time.deltaTime * 0.5f;
@@ -67,6 +77,7 @@ public class PlayerDive : MonoBehaviour
             }
             _characterControllerMove.AddVelocity(new(0f, velocity / 50f, 0f));
             transform.localPosition = _initialLocalPosition;
+            _collider.enabled = false;
             _jumpActionReference.action.Enable();
             _onSurface.Invoke();
         }

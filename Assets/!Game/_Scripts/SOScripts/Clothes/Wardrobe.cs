@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Wardrobe", menuName = "ScriptableObjects/Clothings/Wardrobe")]
@@ -14,6 +15,13 @@ public class Wardrobe : ScriptableObject
     {
         Clothings = new("wardrobe", files => files.companionData, DefaultClothings);
         Blueprints = new("blueprints", files => files.companionData, DefaultBlueprints);
+    }
+    public void AddClothing(Clothing clothing)
+    {
+        if (Clothings.Add(clothing))
+        {
+            _clothingAddedGameEvent.Raise();
+        }
     }
     public void AddClothings(List<Clothing> clothings)
     {

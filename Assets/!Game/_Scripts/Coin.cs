@@ -1,8 +1,4 @@
-using System.Linq;
-
 using UnityEngine;
-
-using VInspector;
 
 #if UNITY_EDITOR
 
@@ -12,46 +8,24 @@ using UnityEditor;
 
 public class Coin : MonoBehaviour
 {
-    [field: SerializeField] public string Id { get; private set; }
-
-#if UNITY_EDITOR
-    [Button("ResetID()")]
-    private void ResetID()
-    {
-        Id = $"{gameObject.scene.name}({gameObject.name},{transform.position})";
-    }
-    private void OnValidate()
-    {
-        if (FindObjectsOfType<Coin>().Any(coin => (coin.Id == Id && coin != this)))
-        {
-            ResetID();
-            //Debug.Log("duplicate");
-            EditorUtility.SetDirty(this);
-        }
-        if (string.IsNullOrEmpty(Id) && PrefabUtility.IsPartOfPrefabInstance(this))
-        {
-            ResetID();
-            Debug.Log("empty");
-            EditorUtility.SetDirty(this);
-        }
-    }
-#endif
+    [field: SerializeField] public Clothing _clothing { get; private set; }
+    [field: SerializeField] public Wardrobe _wardrobe { get; private set; }
     private void Awake()
     {
-        gameObject.SetActive(!WorldData.CollectedCoins.Has(Id));
+        gameObject.SetActive(!_wardrobe.Clothings.Has(_clothing));
     }
 
     public void Collect()
     {
-        WorldData.CollectedCoins.Add(Id);
-        FabricIndicator.Show(Id);
+        _wardrobe.AddClothing(_clothing);
+        FabricIndicator.Show(_clothing.Name + " Acquired");
     }
 #if UNITY_EDITOR
     private void OnDrawGizmos()
     {
         var style = new GUIStyle(EditorStyles.label);
         style.normal.textColor = Color.blue;
-        Handles.Label(transform.position, new GUIContent(Id), style);
+        Handles.Label(transform.position, new GUIContent(_clothing != null ? _clothing.Name : "Null"), style);
     }
 #endif
 }

@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 [CreateAssetMenu(menuName = "ScriptableObjects/Player/States/Tablet", fileName = "Tablet Player State")]
@@ -11,6 +13,8 @@ public class TabletPlayerState : PlayerState
     private bool hasRangeUpgrade;
     public static Sprite UI;
     public static bool CompanionHeld;
+    public static event Action OnPlaceObjectUIEnable;
+    public static event Action OnPlaceObjectUIDisable;
     [SerializeField] private float MaxDistanceFromCompanion = 15f;
     [SerializeField] private Inventory _inventory;
     [SerializeField] private InventoryItemMetadata _rangeIncreaseItem;
@@ -18,7 +22,7 @@ public class TabletPlayerState : PlayerState
     [ContextMenu("Enable")]
     protected override void OnStateEnable()
     {
-        hasRangeUpgrade = _inventory.Has(_rangeIncreaseItem);
+        hasRangeUpgrade = true;//_inventory.Has(_rangeIncreaseItem);
         _context.PlayerInput.actions.SetMaps(InputMaps.Default);
         var act = _context.PlayerInput.actions;
         act["Interact"].Disable();
@@ -28,11 +32,21 @@ public class TabletPlayerState : PlayerState
         act["Move"].Disable();
         act["Jump"].Disable();
 
+
         CompanionStealer.OnCompanionStolen += Leave;
 
         if (CompanionHeld)
         {
             CompanionManager.RaiseArms();
+        }
+        else
+        {
+            CompanionManager.OnCarryEvent += OnPlaceObjectUIEnable;
+            CompanionManager.OnDropEvent += OnPlaceObjectUIDisable;
+            if (CompanionManager.CompanionCarryingObject)
+            {
+                OnPlaceObjectUIEnable?.Invoke();
+            }
         }
 
 
@@ -90,6 +104,9 @@ public class TabletPlayerState : PlayerState
         {
             _context.PlayerInput.actions.UnLink("Tablet", OnTabletLeave);
             _context.PlayerInput.actions.UnLink("Follow", OnPlaceObject);
+            OnPlaceObjectUIDisable?.Invoke();
+            CompanionManager.OnCarryEvent -= OnPlaceObjectUIEnable;
+            CompanionManager.OnDropEvent -= OnPlaceObjectUIDisable;
         }
     }
     public override void OnUpdate()

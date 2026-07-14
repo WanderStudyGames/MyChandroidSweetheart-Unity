@@ -82,7 +82,6 @@ public class PlayerMove : PlayerComponent
             speedLimit *= speedMultiplier.Value;
             if (speedMultiplier.Value <= 0) { Logger.Error($"{typeof(PlayerMove)}: invalid speed limit {speedMultiplier.Value}"); }
         }
-        Debug.Log(speedLimit);
         return speedLimit * _moveInput.magnitude;
     }
 
@@ -93,12 +92,10 @@ public class PlayerMove : PlayerComponent
         scaledMoveSpeed = MoveSpeed / 2f;
         var deltaX = fuckyou * _moveInput.x;
         var deltaY = fuckyou * _moveInput.y;
-        Debug.Log("LOCAL " + fuckyou + _moveInput);
         var walkVector = new Vector2(
             Mathf.Clamp(deltaX, -fuckyou, fuckyou),
             Mathf.Clamp(deltaY, -fuckyou, fuckyou)
             );
-        Debug.Log("LOCAL WALK " + walkVector + walkVector.magnitude);
         if (walkVector.magnitude > fuckyou) walkVector = walkVector.normalized * fuckyou;
         return walkVector;
     }

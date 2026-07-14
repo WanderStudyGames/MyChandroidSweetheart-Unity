@@ -57,6 +57,7 @@ public class PlayerSwim : MonoBehaviour
     {
         _drowned = true;
         _player.Die(playerSwimProfile.DrowningSprite, _playerMovementProfile.drownSFX);
+        PlayerDive.Stop();
         //_playerMove.SetDisableControls(true);
         //_playerJump.SetDisableGravity(true);
         //GlobalPlayerInput.Instance.enabled = false;

@@ -47,4 +47,17 @@ public class CutsceneTransition : MonoBehaviour
         _onEndCutscene?.Invoke();
 
     }
+    public void EndCutscene()
+    {
+        _playableDirector.Stop();
+        PlayerManager.SetPlayerEnabled(true);
+        if (_lockPlayerMovement)
+        {
+            PlayerManager.SetCameraMovementEnabled(true);
+            PlayerManager.SetMovementEnabled(true);
+            PlayerManager.SetGravityEnabled(true);
+        }
+        UIManager.SpawnUI();
+        _onEndCutscene?.Invoke();
+    }
 }

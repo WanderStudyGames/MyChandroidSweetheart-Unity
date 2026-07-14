@@ -14,6 +14,6 @@ public class SaveNotification : MonoBehaviour
     {
         SaveSystem.Save();
         if (SaveSystem.IsDemo()) return;
-        _instance?._onShow.Invoke();
+        //_instance?._onShow.Invoke();
     }
 }

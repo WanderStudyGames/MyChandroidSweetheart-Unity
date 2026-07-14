@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+
 using UnityEditor;
+
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class SceneStartup : MonoBehaviour
 {
@@ -59,7 +60,7 @@ public class SceneStartup : MonoBehaviour
         CompanionSpawnTrigger.ResetSpawnFlag();
         PlayerManager.SpawnPlayer(this);
         UIManager.SpawnUI();
-        WorldData.DiscoveredRooms.Add(SceneManager.GetActiveScene().name);
+        //WorldData.DiscoveredRooms.Add(SceneManager.GetActiveScene().name);
     }
     public void SpawnPlayer(int spawnpointIndex)
     {
@@ -71,7 +72,7 @@ public class SceneStartup : MonoBehaviour
         CompanionSpawnTrigger.ResetSpawnFlag();
         PlayerManager.SpawnPlayer(location.position, location.rotation);
         UIManager.SpawnUI();
-        WorldData.DiscoveredRooms.Add(SceneManager.GetActiveScene().name);
+        //WorldData.DiscoveredRooms.Add(SceneManager.GetActiveScene().name);
     }
     public void SpawnPlayer(Spawnpoint spawnpoint)
     {

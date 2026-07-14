@@ -11,6 +11,7 @@ public class ActionsBar : MonoBehaviour
     [SerializeField] private GameObject _primaryEntry;
     [SerializeField] private GameObject _commandEntry;
     [SerializeField] private GameObject _rewireDisableEntry;
+    [SerializeField] private GameObject _tabletPlaceObjectEntry;
 
     private void DisableAll()
     {
@@ -18,6 +19,7 @@ public class ActionsBar : MonoBehaviour
         _primaryEntry.SetActive(false);
         _commandEntry.SetActive(false);
         _rewireDisableEntry.SetActive(false);
+        _tabletPlaceObjectEntry.SetActive(false);
     }
     private void Start()
     {
@@ -33,8 +35,11 @@ public class ActionsBar : MonoBehaviour
         Commands.OnHoverCompanionInteractible += OnCommandHover;
         Commands.OnStopHoverCompanionInteractible += OnCommandStopHover;
 
-        PlayerStates.Rewiring.OnStateEnableEvent += OnRewireStart;
+        // PlayerStates.Rewiring.OnStateEnableEvent += OnRewireStart;
         PlayerStates.Rewiring.OnStateDisableEvent += OnRewireEnd;
+
+        TabletPlayerState.OnPlaceObjectUIEnable += OnPlaceObjectUIEnable;
+        TabletPlayerState.OnPlaceObjectUIDisable += OnPlaceObjectUIDisable;
     }
     private void OnDisable()
     {
@@ -49,6 +54,9 @@ public class ActionsBar : MonoBehaviour
 
         PlayerStates.Rewiring.OnStateEnableEvent -= OnRewireStart;
         PlayerStates.Rewiring.OnStateDisableEvent -= OnRewireEnd;
+
+        TabletPlayerState.OnPlaceObjectUIEnable -= OnPlaceObjectUIEnable;
+        TabletPlayerState.OnPlaceObjectUIDisable -= OnPlaceObjectUIDisable;
     }
     private void OnPrimaryHover(Sprite s)
     {
@@ -67,5 +75,6 @@ public class ActionsBar : MonoBehaviour
     private void OnCommandStopHover() { _commandEntry.SetActive(false); }
     private void OnRewireStart() { _rewireDisableEntry.SetActive(true); }
     private void OnRewireEnd() { _rewireDisableEntry.SetActive(false); }
-
+    private void OnPlaceObjectUIEnable() { _tabletPlaceObjectEntry.SetActive(true); }
+    private void OnPlaceObjectUIDisable() { _tabletPlaceObjectEntry.SetActive(false); }
 }

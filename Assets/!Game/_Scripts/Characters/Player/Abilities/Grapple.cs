@@ -69,7 +69,11 @@ public class Grapple : PlayerComponent, ILookSelectorListener
             tangentialVelocity.y /= 50f;
             tangentialVelocity.x *= 7f / 2f;
             tangentialVelocity.z *= 7f / 2f;
-            _characterControllerMove.SetVelocity(tangentialVelocity, false);
+            var fixedTanVel = tangentialVelocity.normalized * Mathf.Clamp(tangentialVelocity.magnitude, 0.4f, 0.6f);
+            if (tangentialVelocity.magnitude > 0.2f)
+                _characterControllerMove.SetVelocity(fixedTanVel, false);
+            else
+                _characterControllerMove.SetVelocity(tangentialVelocity, false);
         }
         else { _characterControllerMove.SetVelocity(Vector3.zero); }
         anchorPosition = Vector3.zero;

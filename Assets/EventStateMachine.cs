@@ -19,6 +19,10 @@ public class EventStateMachine : MonoBehaviour
         if (i >= _eventStates.Length || i < 0) return;
         WorldData.WorldFlags.Add(_eventStates[i].DataFlag);
     }
+    void Start()
+    {
+
+    }
     private void Awake()
     {
         if (_executeOnAwake)
@@ -26,6 +30,7 @@ public class EventStateMachine : MonoBehaviour
     }
     public void Check()
     {
+        if (enabled == false) return;
         EventState trueOne = null;
         foreach (var state in _eventStates)
         {

@@ -13,6 +13,7 @@ public class MeshVelocityTracker : MonoBehaviour
     [SerializeField] private Character character;
     [SerializeField] private InteractibleObject _interactibleObject;
     private bool _riding;
+    private Vector2 _velocity;
     private void Awake()
     {
         _animator = GetComponent<Animator>();
@@ -24,6 +25,10 @@ public class MeshVelocityTracker : MonoBehaviour
             character.OnAttach += OnAttach;
             character.OnDetach += OnDetach;
         }
+    }
+    public Vector2 GetVelocity()
+    {
+        return _velocity;
     }
     private void OnDisable()
     {
@@ -61,8 +66,10 @@ public class MeshVelocityTracker : MonoBehaviour
                 sum += _velocitySamples[i];
             }
             Vector2 avg = sum / _velocitySamples.Count;
-            avg = avg.normalized;
-            Debug.DrawRay(transform.position, new(avg.x, 0, avg.y));
+            _velocity = avg;
+            var normalized = avg.normalized;
+            //avg = avg.normalized;
+            Debug.DrawRay(transform.position, new(normalized.x, 0, normalized.y));
             _animator.SetFloat(xAxisParameterName, avg.x);
             _animator.SetFloat(yAxisParameterName, avg.y);
             if (_interactibleObject != null)

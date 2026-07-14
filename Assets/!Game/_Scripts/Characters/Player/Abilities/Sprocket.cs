@@ -67,13 +67,13 @@ public class Sprocket : PlayerComponent
     {
         if (item.Metadata == sprocketProfile.sprocketJumpItem && inventory == Inventories.Instance.PlayerInventory)
         {
-            hasJumpItem = b;
-            _chargeSfx = b ? sprocketProfile.ChargeJumpSFX : sprocketProfile.ChargeSFX;
         }
+        hasJumpItem = true;//b;
+        _chargeSfx = hasJumpItem ? sprocketProfile.ChargeJumpSFX : sprocketProfile.ChargeSFX;
     }
     private void CheckJumpItem()
     {
-        hasJumpItem = Inventories.Instance.PlayerInventory.Has(sprocketProfile.sprocketJumpItem);
+        hasJumpItem = true;//Inventories.Instance.PlayerInventory.Has(sprocketProfile.sprocketJumpItem);
         _chargeSfx = hasJumpItem ? sprocketProfile.ChargeJumpSFX : sprocketProfile.ChargeSFX;
     }
     private void OnDisable()

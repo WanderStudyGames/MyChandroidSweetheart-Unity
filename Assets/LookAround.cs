@@ -48,6 +48,7 @@ public class LookAround : MonoBehaviour
     private void Look()
     {
         StopAllCoroutines();
+        if (CompanionManager.CompanionCarryingObject) { return; }
         StartCoroutine(Co_LookAround());
         StartCoroutine(Co_Sit());
         IEnumerator Co_LookAround()

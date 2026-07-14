@@ -93,13 +93,13 @@ public class Rewire : MonoBehaviour, IScannerSelectable
     }
     private void OnEnable()
     {
-        PlayerStates.Scanner.OnStateEnableEvent += EnableHolos;
+        //PlayerStates.Scanner.OnStateEnableEvent += EnableHolos;
         PlayerStateManager.OnStateChanged += OnStateChange;
         UpdateLineRenderer();
     }
     private void OnDisable()
     {
-        PlayerStates.Scanner.OnStateEnableEvent -= EnableHolos;
+        //PlayerStates.Scanner.OnStateEnableEvent -= EnableHolos;
         PlayerStateManager.OnStateChanged -= OnStateChange;
     }
     private void OnStateChange(PlayerState state)
@@ -147,24 +147,30 @@ public class Rewire : MonoBehaviour, IScannerSelectable
     public bool Select()
     {
         if (!enabled) return false;
-        if (!_hologram.enabled) return false;
-        if (PlayerStateManager.State != PlayerStates.Scanner) return false;
+        //if (!_hologram.enabled) return false;
+        if (PlayerStateManager.State != PlayerStates.Default) return false;
         if (!Inventories.Instance.PlayerInventory.Has("Rewire Module")) return false;
         _hologram.material = ScanMaterials.Instance.rewireMaterial_HL;
+
+        EnableHolos();
         return true;
     }
 
     public void Deselect()
     {
-        if (PlayerStateManager.State != PlayerStates.Scanner || !Inventories.Instance.PlayerInventory.Has("Rewire Module")) return;
+        if (
+            PlayerStateManager.State != PlayerStates.Default ||
+            !Inventories.Instance.PlayerInventory.Has("Rewire Module")) return;
         NormalHolos();
+        if (PlayerStateManager.State == PlayerStates.Rewiring) return;
+        DisableHolos();
     }
 
     public void Click()
     {
         if (!enabled) return;
         if (!_hologram.enabled) return;
-        if (PlayerStateManager.State != PlayerStates.Scanner) return;
+        if (PlayerStateManager.State != PlayerStates.Default) return;
         if (!Inventories.Instance.PlayerInventory.Has("Rewire Module")) return;
         RewiringPlayerState.Rewire = this;
         PlayerStateManager.SwitchState(PlayerStates.Rewiring);

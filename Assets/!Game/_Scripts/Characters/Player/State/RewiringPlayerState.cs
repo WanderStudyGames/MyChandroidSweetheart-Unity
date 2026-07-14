@@ -1,4 +1,5 @@
 ﻿using System;
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -27,14 +28,20 @@ public class RewiringPlayerState : PlayerState, ILookSelectorListener
     {
         PlayerLookSelector.SecondaryInputListenerList.AddListener(this);
         _context.PlayerInput.actions.SetMaps(InputMaps.Default);
-        _context.PlayerInput.actions.Link("Glasses", OnDefaultMode);
+        _context.PlayerInput.actions.Link("Move", OnDefaultMode);
+        if (_context.PlayerInput.actions["Move"].ReadValue<Vector2>() != Vector2.zero)
+        {
+            OnDefaultMode(new InputAction.CallbackContext());
+            return;
+        }
 
         if (PlayerStateManager.PreviousState != PlayerStates.Menu)
             _startSFX?.PlayAtPoint(Vector3.zero);
 
 
         _camera = PlayerLook.Camera;
-        _context.PlayerInput.actions.SetEnabled(disabledControls, false);
+        // _context.PlayerInput.actions.SetEnabled(disabledControls, false);
+        // _context.PlayerInput.actions["Move"].Enable();
 
 
     }
@@ -54,14 +61,14 @@ public class RewiringPlayerState : PlayerState, ILookSelectorListener
             Select(null);
             OnStopHover?.Invoke();
         }
-        _context.PlayerInput.actions.UnLink("Glasses", OnDefaultMode);
-        _context.PlayerInput.actions.SetEnabled(disabledControls, true);
+        _context.PlayerInput.actions.UnLink("Move", OnDefaultMode);
+
+        // _context.PlayerInput.actions.SetEnabled(disabledControls, true);
         PlayerLookSelector.SecondaryInputListenerList.RemoveListener(this);
     }
 
     private void OnDefaultMode(InputAction.CallbackContext ctx)
     {
-        if (!ctx.action.WasReleasedThisFrame()) return;
         PlayerStateManager.SwitchState(PlayerStates.Default);
         PlayerStates.Scanner.EndSFX.PlayAtPoint(Vector3.zero);
     }

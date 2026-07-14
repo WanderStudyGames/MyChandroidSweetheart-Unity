@@ -1,10 +1,11 @@
 using System;
 using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
 
-public class Scan : MonoBehaviour, IScannerSelectable
+public class Scan : MonoBehaviour//, IScannerSelectable
 {
     [Dependency][SerializeField] private ScanMaterials scanMaterialsSO;
     [field: SerializeField] public string Name { get; private set; } = "";
@@ -78,6 +79,8 @@ public class Scan : MonoBehaviour, IScannerSelectable
     }
     private void Awake()
     {
+        enabled = false;
+        return;
         Refresh();
 
         if (!gameObjects.Contains(gameObject) && gameObject.activeInHierarchy && includeSelf)
@@ -120,7 +123,7 @@ public class Scan : MonoBehaviour, IScannerSelectable
     {
         PlayerStates.Scanner.OnStateEnableEvent += OnScannerEnable;
         OnScanCompleted += Refresh;
-        PlayerStateManager.OnStateChanged += OnStateChange;
+        //PlayerStateManager.OnStateChanged += OnStateChange;
         _hologram.enabled =
             PlayerStateManager.State == PlayerStates.Scanner ||
             PlayerStateManager.State == PlayerStates.Scanning ||
@@ -130,7 +133,7 @@ public class Scan : MonoBehaviour, IScannerSelectable
     {
         OnScanCompleted -= Refresh;
         PlayerStates.Scanner.OnStateEnableEvent -= OnScannerEnable;
-        PlayerStateManager.OnStateChanged -= OnStateChange;
+        //PlayerStateManager.OnStateChanged -= OnStateChange;
         if (_hologram == null) return;
         _hologram.enabled = false;
 

@@ -100,6 +100,17 @@ public class CompanionManager : ScriptableObject
         if (_companionBehaviorManager != null)
             _companionBehaviorManager.SetBehavior(CompanionBehaviors.FollowBehavior);
     }
+    public static event Action OnCarryEvent;
+    private static void OnCarry()
+    {
+        OnCarryEvent?.Invoke();
+    }
+    public static event Action OnDropEvent;
+    private static void OnDrop()
+    {
+        OnDropEvent?.Invoke();
+    }
+    public static bool CompanionCarryingObject => _goInstance != null && _goInstance.TryGetComponent(out Companion companion) && companion.CarriedObject != null;
 
     public static void DropCarriedItem()
     {
@@ -205,6 +216,8 @@ public class CompanionManager : ScriptableObject
         if (_goInstance.TryGetComponent(out Companion companion))
         {
             TabletCameraTarget = companion.TabletCamTarget;
+            companion.OnCarry += OnCarry;
+            companion.OnDrop += OnDrop;
         }
 
         OnCompanionSpawn?.Invoke();
@@ -219,6 +232,13 @@ public class CompanionManager : ScriptableObject
     {
         if (_goInstance == null) return;
         DropCarriedItem();
+
+        if (_goInstance.TryGetComponent(out Companion companion))
+        {
+            companion.OnCarry -= OnCarry;
+            companion.OnDrop -= OnDrop;
+        }
+
         Destroy(_goInstance);
         _goInstance = null;
         GameObjectUtility.PurgeObjectsByTag(Prefab.tag);

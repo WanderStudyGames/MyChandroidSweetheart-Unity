@@ -1,15 +1,13 @@
 #define QC_DISABLE_BUILTIN_ALL
 
 using System;
+using System.Linq;
 
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
 using VInspector;
-
-using System.Linq;
-
-using UnityEngine.Rendering;
 
 #if UNITY_EDITOR
 
@@ -77,8 +75,8 @@ public class SceneHandler : ScriptableObject
     private static Vector3 _loadedUIFades = Vector3.one * 0.3f;
     private void Load(SaveSystem.SaveFileNames files)
     {
-        _loadedSceneName = ES3.Load("sceneName", files.worldData, _loadedSceneName);
-        _loadedDestSpawn = ES3.Load("destSpawnPoint", files.worldData, DestSpawnpoint);
+        _loadedSceneName = ES3.Load("sceneName", files.worldData, "City01-HomeInterior");
+        _loadedDestSpawn = ES3.Load("destSpawnPoint", files.worldData, 0);
         _loadedUIColor = ES3.Load("fadeColor", files.worldData, Color.white);
         _loadedUIFades = ES3.Load("fadeDurations", files.worldData, Vector3.one * 0.3f);
     }
@@ -182,11 +180,17 @@ public class SceneHandler : ScriptableObject
             UIFade.ExecuteAfterFade(() =>
             {
                 SaveSystem.Save();
-                LoadScene("MainMenu");
+                //LoadScene("MainMenu");
+                Application.Quit();
             }, true);
         }
 
-        else { SaveSystem.Save(); LoadScene("MainMenu"); }
+        else
+        {
+            SaveSystem.Save();
+            //LoadScene("MainMenu");
+            Application.Quit();
+        }
     }
     public void Quit()
     {

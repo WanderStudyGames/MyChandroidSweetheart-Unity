@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -17,7 +18,6 @@ public class PlayerLookSelector : MonoBehaviour
 
     public static InputListenerList PrimaryInputListenerList = new();
     public static InputListenerList SecondaryInputListenerList = new();
-
     public event Action<RaycastHit> OnTriggerHit;
     public event Action<RaycastHit> OnColliderHit;
 

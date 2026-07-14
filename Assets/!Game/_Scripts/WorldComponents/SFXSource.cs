@@ -9,6 +9,7 @@ public class SFXSource : MonoBehaviour
     public bool detachedPlaySource = false;
     [Tooltip("If true, the SFX will be silenced for a short time on start. Useful for puzzle elements with on-start effects.")] public bool timedSilence = false;
     public bool disableDoppler = true;
+    private bool playable = true;
 
     private AudioSource audioSource;
 
@@ -23,13 +24,13 @@ public class SFXSource : MonoBehaviour
     {
         if (timedSilence)
         {
-            enabled = false;
+            playable = false;
             yield return new WaitForSeconds(1f);
-            enabled = true;
+            playable = true;
             yield break;
         }
         yield return null;
-        if (playOnAwake && enabled)
+        if (playOnAwake && playable)
         {
             if (!sfx.Loop) Play();
             else Play(0.3f);
@@ -43,7 +44,7 @@ public class SFXSource : MonoBehaviour
 
     public void Play(SFX sfxLocal)
     {
-        if (!enabled) return;
+        if (!enabled || !playable) return;
         if (sfxLocal == null) return;
         if (detachedPlaySource)
         {

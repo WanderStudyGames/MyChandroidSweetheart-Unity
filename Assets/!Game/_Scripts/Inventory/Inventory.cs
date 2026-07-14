@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+
 [CreateAssetMenu(menuName = "ScriptableObjects/Inventory/Inventory", fileName = "Inventory")]
 public class Inventory : ScriptableObject
 {
@@ -96,8 +97,9 @@ public class Inventory : ScriptableObject
         AddItem(item);
         SaveNotification.Show();
     }
-    private void RemoveItem(InventoryItemMetadata item)
+    public void RemoveItem(InventoryItemMetadata item)
     {
+        Debug.Log("Removing " + item.name + " from " + name);
         for (int i = _items.Count - 1; i >= 0; i--)
         {
             if (_items[i].Metadata == item)

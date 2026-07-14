@@ -1,4 +1,6 @@
 
+using System.Collections.Generic;
+
 using UnityEngine;
 
 [RequireComponent(typeof(BoxCollider))]
@@ -11,13 +13,21 @@ public class SceneLoadArea : MonoBehaviour
     {
         sceneLoader = GetComponent<SceneLoader>();
     }
+    private List<Collider> _players = new();
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag(PlayerManager.Tag))
+        if (other.gameObject.CompareTag(PlayerManager.Tag) && !_players.Contains(other))
         {
+            Debug.Log("Entered Scene Load Area: " + other.gameObject.name, other);
             PlayerManager.SetMovementEnabled(false);
             PlayerManager.SetCameraMovementEnabled(false);
             PlayerManager.SetGravityEnabled(false);
+            _players.Add(other);
+            Debug.Log(_players.Count);
+            foreach (var player in _players)
+            {
+                Debug.Log("Player: " + player == null);
+            }
             // if (_enterLoadAreaSFX != null)
             //     DontDestroyOnLoad(_enterLoadAreaSFX.PlayAtPoint(transform.position));
             sceneLoader.LoadScene();
