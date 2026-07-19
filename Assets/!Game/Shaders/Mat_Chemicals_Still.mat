@@ -121,6 +121,6 @@ Material:
     - _OverrideColor: {r: 0.99108565, g: 0.532, b: 1, a: 0}
     - _ScrollDirection: {r: 0.003, g: -0.008, b: 0, a: 0}
     - _SloshDirection: {r: 0.54, g: 0.24, b: 0, a: 0}
-    - _VertexColor1: {r: 1, g: 0, b: 0, a: 1}
-    - _VertexColor2: {r: 0, g: 0.41176462, b: 1, a: 1}
+    - _VertexColor1: {r: 1, g: 0.72156864, b: 0, a: 1}
+    - _VertexColor2: {r: 0, g: 1, b: 0.050980393, a: 1}
   m_BuildTextureStacks: []
